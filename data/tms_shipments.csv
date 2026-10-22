@@ -1,0 +1,1201 @@
+shipment_id,carrier,region,mode,shipment_type,distance_km,weight_tons,priority,weather_delay,customs_delay,dock_congestion,driver_shortage,late_pickup,handling_error,on_time,service_level,delay_hours
+SHP-0001,Carrier_A,West,Truck,Standard,912.9,4.64,Medium,1,0,3,0,0,1,0,Gold,12.0
+SHP-0002,Carrier_D,South,Air,Standard,905.4,3.54,High,1,0,0,0,1,0,1,Bronze,5.0
+SHP-0003,Carrier_C,West,Ocean,Express,740.7,9.08,Medium,0,0,4,0,0,0,1,Bronze,10.0
+SHP-0004,Carrier_B,West,Air,Standard,799.4,2.24,Medium,0,0,1,1,1,1,1,Silver,9.5
+SHP-0005,Carrier_B,East,Air,Cold Chain,453.7,8.82,High,3,0,2,1,1,1,0,Gold,21.0
+SHP-0006,Carrier_D,West,Ocean,Express,203.4,5.87,High,0,0,1,0,0,0,1,Silver,2.5
+SHP-0007,Carrier_A,East,Air,Express,787.5,5.97,High,1,0,3,1,0,0,1,Bronze,14.0
+SHP-0008,Carrier_C,East,Ocean,Cold Chain,831.0,7.52,High,0,0,1,1,2,2,1,Bronze,13.0
+SHP-0009,Carrier_A,South,Air,Standard,1052.3,7.95,Medium,1,1,0,1,1,1,0,Gold,14.0
+SHP-0010,Carrier_A,West,Truck,Cold Chain,1142.8,4.43,High,0,0,2,0,0,1,0,Gold,6.5
+SHP-0011,Carrier_C,East,Air,Standard,1142.5,8.29,Medium,2,1,1,1,1,0,1,Gold,18.0
+SHP-0012,Carrier_D,West,Truck,Cold Chain,500.5,6.78,Medium,2,0,0,1,2,0,1,Silver,13.5
+SHP-0013,Carrier_C,South,Ocean,Standard,661.9,3.36,Low,0,0,0,1,1,0,1,Gold,5.5
+SHP-0014,Carrier_D,West,Air,Express,870.1,6.08,High,3,0,1,1,2,0,1,Gold,19.0
+SHP-0015,Carrier_C,North,Air,Cold Chain,1383.0,9.95,High,0,1,1,1,1,0,1,Gold,12.0
+SHP-0016,Carrier_D,North,Air,Standard,1120.0,10.69,Medium,2,0,0,0,3,0,1,Gold,12.0
+SHP-0017,Carrier_C,East,Air,Express,1029.8,8.29,Critical,1,1,0,1,1,2,1,Bronze,15.5
+SHP-0018,Carrier_A,East,Truck,Standard,653.1,3.52,High,5,0,0,0,0,1,1,Gold,16.5
+SHP-0019,Carrier_D,West,Truck,Standard,529.2,7.73,Low,1,0,2,2,1,0,1,Gold,17.0
+SHP-0020,Carrier_B,South,Air,Express,947.2,8.63,High,0,0,1,1,0,1,1,Silver,7.5
+SHP-0021,Carrier_C,East,Truck,Cold Chain,474.8,8.31,Medium,1,1,1,0,0,1,1,Silver,11.0
+SHP-0022,Carrier_B,East,Ocean,Express,690.4,8.46,Critical,3,1,1,0,2,0,0,Silver,19.5
+SHP-0023,Carrier_A,West,Truck,Express,721.3,7.41,Medium,0,0,2,1,0,0,1,Silver,8.5
+SHP-0024,Carrier_D,East,Ocean,Standard,1148.2,6.32,Medium,1,1,1,0,1,1,1,Gold,13.0
+SHP-0025,Carrier_D,South,Air,Cold Chain,661.3,4.98,Medium,0,1,3,1,3,0,1,Gold,21.0
+SHP-0026,Carrier_C,West,Air,Cold Chain,140.2,1.76,Medium,3,0,5,3,2,0,0,Gold,36.0
+SHP-0027,Carrier_B,North,Truck,Cold Chain,876.1,7.35,High,0,0,4,0,1,0,1,Silver,12.0
+SHP-0028,Carrier_D,West,Air,Express,575.2,6.97,Medium,1,0,1,2,2,0,1,Bronze,16.5
+SHP-0029,Carrier_C,North,Ocean,Cold Chain,760.7,7.89,Medium,0,1,1,0,0,1,1,Gold,8.0
+SHP-0030,Carrier_B,South,Truck,Cold Chain,728.3,3.16,High,1,1,0,1,0,0,1,Silver,10.5
+SHP-0031,Carrier_B,West,Truck,Standard,681.6,8.11,Critical,2,1,5,3,0,0,0,Silver,33.0
+SHP-0032,Carrier_A,East,Air,Standard,947.6,11.64,High,1,2,1,0,1,0,0,Bronze,15.5
+SHP-0033,Carrier_A,West,Truck,Express,366.8,6.7,Medium,1,2,2,0,1,1,0,Gold,19.5
+SHP-0034,Carrier_C,East,Truck,Cold Chain,620.7,6.35,Medium,1,1,3,0,2,0,1,Gold,18.5
+SHP-0035,Carrier_D,East,Air,Cold Chain,921.0,7.27,Low,0,1,2,0,3,0,0,Silver,15.0
+SHP-0036,Carrier_A,South,Air,Standard,596.5,11.58,Critical,1,1,1,2,0,0,1,Silver,16.5
+SHP-0037,Carrier_D,North,Air,Standard,347.8,3.94,High,0,1,1,0,0,2,1,Silver,9.5
+SHP-0038,Carrier_D,North,Ocean,Standard,917.1,7.01,High,0,1,1,1,0,0,1,Bronze,10.0
+SHP-0039,Carrier_B,South,Ocean,Express,1030.8,4.5,Critical,3,1,1,1,2,0,1,Gold,23.0
+SHP-0040,Carrier_C,North,Truck,Standard,738.8,5.13,Low,2,0,1,1,1,1,1,Silver,15.5
+SHP-0041,Carrier_A,East,Air,Cold Chain,259.8,6.38,High,2,0,3,2,1,1,1,Gold,24.0
+SHP-0042,Carrier_D,West,Truck,Cold Chain,926.5,9.87,Medium,1,1,0,3,0,1,0,Gold,19.0
+SHP-0043,Carrier_C,West,Truck,Cold Chain,335.0,11.0,Low,0,1,1,0,1,0,1,Gold,8.5
+SHP-0044,Carrier_B,South,Truck,Standard,827.2,7.62,Medium,1,1,1,2,2,1,1,Gold,22.0
+SHP-0045,Carrier_A,West,Air,Cold Chain,528.1,5.56,Medium,0,0,0,0,0,1,1,Gold,1.5
+SHP-0046,Carrier_D,West,Ocean,Standard,460.0,12.73,Critical,3,0,1,1,0,2,1,Silver,18.0
+SHP-0047,Carrier_B,West,Ocean,Standard,639.5,5.43,Medium,3,0,0,0,0,0,1,Bronze,9.0
+SHP-0048,Carrier_D,South,Air,Standard,704.2,5.07,High,1,0,0,0,0,0,1,Gold,3.0
+SHP-0049,Carrier_C,South,Ocean,Cold Chain,588.9,2.06,High,3,0,5,0,0,1,0,Gold,23.0
+SHP-0050,Carrier_D,West,Truck,Cold Chain,897.2,9.99,High,1,0,0,1,0,0,1,Gold,6.5
+SHP-0051,Carrier_D,North,Ocean,Express,638.5,8.92,Critical,3,1,1,0,3,3,1,Gold,26.0
+SHP-0052,Carrier_A,South,Ocean,Express,995.0,12.54,Medium,1,1,1,1,1,2,1,Gold,18.0
+SHP-0053,Carrier_B,North,Truck,Standard,820.3,3.03,Medium,3,0,0,0,0,1,1,Silver,10.5
+SHP-0054,Carrier_B,West,Air,Standard,575.6,10.15,Low,2,0,1,0,0,2,1,Bronze,11.5
+SHP-0055,Carrier_B,East,Ocean,Cold Chain,533.5,6.68,Medium,3,0,0,0,2,0,1,Silver,13.0
+SHP-0056,Carrier_A,North,Air,Standard,338.1,8.52,Critical,0,0,0,1,2,0,1,Silver,7.5
+SHP-0057,Carrier_C,North,Ocean,Standard,822.7,2.38,Medium,1,2,1,0,1,0,0,Silver,15.5
+SHP-0058,Carrier_A,East,Ocean,Cold Chain,661.4,10.17,Medium,2,0,0,0,0,1,1,Gold,7.5
+SHP-0059,Carrier_C,East,Air,Standard,157.0,8.47,Medium,3,0,0,0,1,0,0,Gold,11.0
+SHP-0060,Carrier_C,West,Truck,Standard,616.1,6.4,Medium,1,1,1,0,1,0,0,Gold,11.5
+SHP-0061,Carrier_D,South,Air,Standard,524.7,8.11,High,0,0,0,0,1,1,1,Gold,3.5
+SHP-0062,Carrier_C,West,Truck,Standard,1143.9,4.59,Medium,2,0,2,0,2,0,1,Bronze,15.0
+SHP-0063,Carrier_B,South,Air,Cold Chain,324.3,5.05,High,0,0,0,0,0,0,1,Gold,0.0
+SHP-0064,Carrier_D,West,Air,Cold Chain,389.7,5.34,High,1,1,0,1,0,0,0,Gold,10.5
+SHP-0065,Carrier_B,North,Air,Standard,1027.5,1.87,High,2,0,1,0,1,0,0,Gold,10.5
+SHP-0066,Carrier_B,North,Truck,Standard,1089.2,8.65,Medium,2,2,6,2,0,1,0,Gold,37.5
+SHP-0067,Carrier_D,North,Truck,Standard,563.8,9.48,High,2,0,3,1,1,0,0,Bronze,19.0
+SHP-0068,Carrier_B,South,Ocean,Express,592.0,4.75,Low,2,1,8,4,0,2,0,Gold,47.0
+SHP-0069,Carrier_A,West,Truck,Standard,904.1,7.37,Medium,0,0,1,0,2,1,1,Silver,8.0
+SHP-0070,Carrier_B,North,Truck,Express,168.2,5.84,High,3,0,6,1,0,1,0,Gold,29.0
+SHP-0071,Carrier_D,South,Ocean,Express,284.7,7.32,High,1,0,0,2,0,0,1,Gold,10.0
+SHP-0072,Carrier_A,North,Truck,Express,679.8,4.93,Low,1,3,2,1,1,0,0,Gold,25.5
+SHP-0073,Carrier_B,West,Air,Standard,1137.5,4.29,Critical,1,1,2,1,1,1,1,Bronze,19.0
+SHP-0074,Carrier_A,East,Truck,Express,641.1,9.13,Low,3,1,0,1,0,0,1,Gold,16.5
+SHP-0075,Carrier_C,West,Truck,Standard,775.2,6.34,High,1,0,1,1,0,0,1,Silver,9.0
+SHP-0076,Carrier_B,East,Air,Standard,1033.4,11.56,Critical,3,0,0,2,0,0,1,Gold,16.0
+SHP-0077,Carrier_B,East,Air,Standard,1276.7,6.62,High,1,0,2,2,0,0,1,Silver,15.0
+SHP-0078,Carrier_A,West,Truck,Cold Chain,605.8,4.18,High,0,0,1,0,1,1,1,Silver,6.0
+SHP-0079,Carrier_C,North,Truck,Standard,745.8,9.57,High,3,0,2,3,0,0,0,Silver,24.5
+SHP-0080,Carrier_C,West,Truck,Cold Chain,1205.5,8.08,High,0,1,0,0,1,0,1,Gold,6.0
+SHP-0081,Carrier_D,East,Air,Cold Chain,369.5,8.32,High,3,0,0,3,0,2,1,Gold,22.5
+SHP-0082,Carrier_B,East,Ocean,Express,1006.9,9.48,High,1,0,1,0,2,1,1,Bronze,11.0
+SHP-0083,Carrier_A,South,Truck,Express,495.4,4.87,Medium,1,0,1,2,0,1,1,Silver,14.0
+SHP-0084,Carrier_D,West,Truck,Standard,775.6,6.18,High,3,1,0,1,0,0,0,Gold,16.5
+SHP-0085,Carrier_C,South,Air,Cold Chain,689.3,6.07,Medium,2,0,2,4,1,0,0,Gold,27.0
+SHP-0086,Carrier_C,North,Air,Express,510.5,3.27,Critical,1,0,2,2,2,0,1,Gold,19.0
+SHP-0087,Carrier_A,West,Truck,Express,504.2,5.84,Medium,0,1,0,0,1,0,1,Gold,6.0
+SHP-0088,Carrier_B,North,Truck,Cold Chain,819.1,9.84,Medium,3,0,2,1,0,1,1,Gold,19.0
+SHP-0089,Carrier_D,North,Air,Cold Chain,998.9,7.09,Critical,1,0,0,2,0,1,1,Gold,11.5
+SHP-0090,Carrier_D,East,Air,Express,717.6,3.13,Medium,0,2,0,0,1,0,1,Gold,10.0
+SHP-0091,Carrier_B,North,Air,Standard,767.5,2.61,Medium,1,0,0,2,1,0,1,Silver,12.0
+SHP-0092,Carrier_D,West,Truck,Standard,892.8,10.66,High,1,0,2,0,0,0,1,Bronze,8.0
+SHP-0093,Carrier_D,South,Ocean,Express,507.1,6.27,Low,0,0,1,0,1,1,0,Silver,6.0
+SHP-0094,Carrier_B,North,Air,Express,934.9,4.88,Low,1,4,1,1,0,0,1,Silver,25.0
+SHP-0095,Carrier_D,West,Air,Standard,954.8,5.82,Medium,4,1,4,2,1,1,0,Silver,36.5
+SHP-0096,Carrier_B,East,Truck,Standard,1400.9,2.81,Medium,1,0,0,0,1,0,1,Gold,5.0
+SHP-0097,Carrier_A,South,Ocean,Express,656.0,10.06,Medium,1,1,0,1,0,1,1,Silver,12.0
+SHP-0098,Carrier_C,East,Ocean,Standard,635.5,5.52,Low,4,3,3,1,1,0,1,Gold,37.0
+SHP-0099,Carrier_C,East,Truck,Express,942.2,9.92,Medium,5,0,1,0,0,0,1,Gold,17.5
+SHP-0100,Carrier_A,North,Ocean,Cold Chain,954.8,6.63,Medium,3,0,3,0,0,0,0,Silver,16.5
+SHP-0101,Carrier_D,West,Ocean,Express,616.2,10.07,Low,1,1,2,1,1,0,1,Gold,17.5
+SHP-0102,Carrier_A,South,Truck,Express,649.2,7.14,High,2,1,1,1,0,1,1,Silver,17.5
+SHP-0103,Carrier_D,East,Ocean,Express,885.3,8.63,High,1,0,2,1,0,1,0,Silver,13.0
+SHP-0104,Carrier_A,West,Truck,Cold Chain,543.1,8.3,Low,2,0,1,0,0,0,1,Gold,8.5
+SHP-0105,Carrier_D,East,Truck,Cold Chain,647.4,8.06,Medium,1,1,1,1,1,0,0,Gold,15.0
+SHP-0106,Carrier_D,East,Truck,Standard,772.4,7.37,Critical,2,1,1,1,1,0,0,Silver,18.0
+SHP-0107,Carrier_D,South,Air,Express,999.0,5.92,High,2,0,1,2,2,0,1,Silver,19.5
+SHP-0108,Carrier_C,North,Air,Cold Chain,598.9,11.29,Medium,2,0,0,2,1,2,1,Silver,18.0
+SHP-0109,Carrier_B,South,Air,Standard,289.4,4.23,Medium,1,0,1,0,1,0,1,Gold,7.5
+SHP-0110,Carrier_C,West,Truck,Cold Chain,270.9,6.51,Medium,1,0,0,0,0,1,1,Silver,4.5
+SHP-0111,Carrier_B,East,Truck,Standard,435.1,6.54,High,1,1,1,1,0,1,0,Gold,14.5
+SHP-0112,Carrier_D,South,Ocean,Cold Chain,421.7,7.51,Critical,2,0,0,1,0,0,1,Gold,9.5
+SHP-0113,Carrier_C,West,Ocean,Cold Chain,711.3,5.43,Critical,1,1,2,1,2,0,1,Silver,19.5
+SHP-0114,Carrier_B,West,Ocean,Express,452.8,7.29,Medium,3,0,0,1,1,1,1,Gold,16.0
+SHP-0115,Carrier_C,West,Truck,Cold Chain,574.3,6.08,Medium,1,0,0,0,0,2,1,Gold,6.0
+SHP-0116,Carrier_C,South,Ocean,Express,556.5,2.55,Low,1,1,0,0,0,0,1,Gold,7.0
+SHP-0117,Carrier_A,East,Ocean,Standard,639.9,6.52,Medium,6,1,4,2,1,0,0,Silver,41.0
+SHP-0118,Carrier_A,East,Air,Express,1080.6,3.75,Medium,3,0,0,1,1,1,0,Bronze,16.0
+SHP-0119,Carrier_A,South,Truck,Cold Chain,915.5,2.16,High,4,1,1,1,0,0,0,Bronze,22.0
+SHP-0120,Carrier_A,South,Ocean,Express,754.0,6.84,Low,1,0,1,0,1,0,1,Gold,7.5
+SHP-0121,Carrier_B,North,Air,Standard,634.7,7.72,Critical,2,1,0,0,1,2,1,Gold,15.0
+SHP-0122,Carrier_C,South,Truck,Standard,641.7,7.82,Low,1,2,1,0,2,1,0,Silver,19.0
+SHP-0123,Carrier_C,East,Truck,Cold Chain,831.9,7.92,Low,2,1,0,2,4,1,1,Gold,26.5
+SHP-0124,Carrier_B,West,Air,Cold Chain,896.0,1.67,Critical,2,3,1,2,1,0,1,Gold,29.5
+SHP-0125,Carrier_D,West,Truck,Express,523.1,3.1,High,0,2,0,2,1,1,1,Gold,18.5
+SHP-0126,Carrier_C,North,Truck,Cold Chain,759.1,11.43,Medium,3,1,2,1,0,0,1,Silver,21.5
+SHP-0127,Carrier_A,East,Air,Express,242.1,3.88,High,2,1,1,3,0,1,1,Silver,24.5
+SHP-0128,Carrier_D,North,Ocean,Standard,802.9,8.03,Medium,1,0,6,3,1,0,0,Gold,30.5
+SHP-0129,Carrier_C,East,Truck,Standard,940.5,4.78,Low,2,3,2,1,0,0,1,Gold,26.5
+SHP-0130,Carrier_C,South,Air,Standard,680.0,6.7,Medium,3,0,1,1,1,0,0,Silver,17.0
+SHP-0131,Carrier_C,South,Ocean,Cold Chain,1204.1,4.92,Medium,1,0,4,0,1,0,1,Silver,15.0
+SHP-0132,Carrier_C,East,Ocean,Cold Chain,529.7,7.9,High,2,0,5,0,0,0,1,Gold,18.5
+SHP-0133,Carrier_A,South,Ocean,Standard,804.4,6.84,Medium,1,1,0,0,0,0,1,Gold,7.0
+SHP-0134,Carrier_C,West,Truck,Cold Chain,741.0,5.38,High,0,0,1,0,2,1,1,Bronze,8.0
+SHP-0135,Carrier_D,East,Ocean,Express,724.9,3.87,High,1,0,0,3,0,0,1,Silver,13.5
+SHP-0136,Carrier_B,West,Ocean,Express,721.4,7.17,Low,1,0,4,3,3,0,0,Silver,29.5
+SHP-0137,Carrier_C,East,Truck,Standard,776.8,3.47,Low,3,2,1,1,2,0,0,Silver,27.0
+SHP-0138,Carrier_A,South,Air,Standard,962.0,7.57,Medium,2,0,0,0,3,0,1,Bronze,12.0
+SHP-0139,Carrier_B,West,Air,Cold Chain,1094.4,13.07,High,0,0,0,1,0,0,1,Gold,3.5
+SHP-0140,Carrier_B,South,Air,Cold Chain,749.4,9.88,High,0,0,1,2,1,0,1,Gold,11.5
+SHP-0141,Carrier_D,East,Truck,Express,953.8,8.3,High,1,2,1,1,1,0,1,Gold,19.0
+SHP-0142,Carrier_A,North,Ocean,Express,574.6,6.29,Medium,2,1,1,1,0,0,1,Silver,16.0
+SHP-0143,Carrier_B,North,Ocean,Cold Chain,941.5,1.65,Medium,1,0,2,1,1,0,1,Gold,13.5
+SHP-0144,Carrier_B,East,Air,Standard,559.5,3.19,High,0,1,1,0,1,1,1,Gold,10.0
+SHP-0145,Carrier_D,North,Ocean,Express,1022.7,9.71,Medium,3,0,0,0,0,1,1,Gold,10.5
+SHP-0146,Carrier_D,West,Air,Cold Chain,1302.7,4.53,High,0,2,4,0,0,0,1,Silver,18.0
+SHP-0147,Carrier_A,West,Ocean,Standard,719.5,4.75,Low,1,1,1,2,0,0,1,Silver,16.5
+SHP-0148,Carrier_A,East,Air,Cold Chain,201.9,6.09,Medium,2,1,0,1,0,0,1,Gold,13.5
+SHP-0149,Carrier_D,East,Air,Cold Chain,613.0,3.84,High,3,1,0,1,0,0,0,Gold,16.5
+SHP-0150,Carrier_A,East,Truck,Cold Chain,1058.0,3.43,Medium,0,2,1,0,1,0,0,Silver,12.5
+SHP-0151,Carrier_D,North,Air,Standard,888.3,6.37,High,0,1,0,0,0,0,1,Gold,4.0
+SHP-0152,Carrier_B,South,Truck,Cold Chain,812.2,4.27,Medium,2,1,5,2,0,1,0,Silver,31.0
+SHP-0153,Carrier_D,South,Truck,Cold Chain,1002.2,4.65,Critical,0,0,1,0,0,0,1,Gold,2.5
+SHP-0154,Carrier_B,West,Truck,Express,871.1,4.55,High,1,1,2,2,0,0,0,Bronze,19.0
+SHP-0155,Carrier_B,North,Ocean,Express,1054.4,7.81,Critical,0,0,0,1,0,0,1,Gold,3.5
+SHP-0156,Carrier_C,South,Truck,Express,979.9,5.92,High,2,0,2,0,1,0,1,Silver,13.0
+SHP-0157,Carrier_A,South,Ocean,Standard,1130.4,6.05,High,1,0,1,2,2,0,0,Gold,16.5
+SHP-0158,Carrier_C,North,Ocean,Standard,839.7,7.99,High,3,0,0,0,0,0,1,Gold,9.0
+SHP-0159,Carrier_C,North,Truck,Express,976.3,6.14,Medium,2,1,1,0,0,0,1,Silver,12.5
+SHP-0160,Carrier_D,South,Air,Standard,673.2,5.8,Medium,1,0,5,3,1,1,0,Silver,29.5
+SHP-0161,Carrier_D,North,Air,Express,599.6,7.68,High,4,0,2,2,0,0,0,Silver,24.0
+SHP-0162,Carrier_C,North,Air,Standard,1176.7,8.17,Low,2,1,3,1,1,0,1,Silver,23.0
+SHP-0163,Carrier_B,South,Ocean,Standard,804.1,6.13,Low,1,1,2,1,0,0,1,Silver,15.5
+SHP-0164,Carrier_B,North,Air,Standard,951.2,6.7,Critical,3,0,3,1,1,0,0,Bronze,22.0
+SHP-0165,Carrier_B,East,Air,Standard,780.9,4.55,Low,2,1,1,3,0,1,1,Gold,24.5
+SHP-0166,Carrier_D,North,Air,Standard,603.4,4.35,High,2,0,1,3,0,0,1,Bronze,19.0
+SHP-0167,Carrier_B,South,Ocean,Cold Chain,752.7,8.42,High,2,0,0,0,0,1,1,Gold,7.5
+SHP-0168,Carrier_A,South,Air,Cold Chain,1109.0,7.61,Low,4,1,1,1,2,0,1,Gold,26.0
+SHP-0169,Carrier_B,West,Air,Cold Chain,888.8,7.64,Critical,2,1,1,0,0,0,1,Silver,12.5
+SHP-0170,Carrier_A,East,Ocean,Standard,322.1,7.2,Low,0,0,1,0,0,0,0,Gold,2.5
+SHP-0171,Carrier_A,West,Ocean,Standard,696.2,6.62,Critical,2,2,1,1,1,1,1,Gold,23.5
+SHP-0172,Carrier_A,South,Ocean,Express,1195.6,8.24,High,2,1,1,1,0,1,1,Gold,17.5
+SHP-0173,Carrier_D,South,Ocean,Standard,696.6,8.84,Medium,4,0,0,1,3,2,1,Silver,24.5
+SHP-0174,Carrier_C,South,Air,Express,299.9,8.78,Low,1,1,1,1,1,1,1,Silver,16.5
+SHP-0175,Carrier_C,West,Ocean,Standard,1223.3,6.25,Medium,2,0,0,1,1,0,1,Gold,11.5
+SHP-0176,Carrier_B,West,Truck,Express,920.6,9.97,Medium,1,2,1,0,0,0,1,Gold,13.5
+SHP-0177,Carrier_C,West,Truck,Standard,732.5,7.07,Medium,1,0,1,1,0,0,0,Gold,9.0
+SHP-0178,Carrier_A,West,Air,Cold Chain,657.1,8.08,Critical,1,0,4,1,3,0,1,Gold,22.5
+SHP-0179,Carrier_D,East,Ocean,Cold Chain,1020.6,7.21,Medium,1,0,3,2,1,0,1,Gold,19.5
+SHP-0180,Carrier_C,East,Air,Standard,614.5,7.12,High,2,1,0,1,0,1,1,Gold,15.0
+SHP-0181,Carrier_D,West,Air,Express,1037.1,4.66,Low,2,1,1,2,1,1,1,Silver,23.0
+SHP-0182,Carrier_A,South,Air,Express,885.5,8.25,Critical,1,2,1,0,1,1,1,Silver,17.0
+SHP-0183,Carrier_B,South,Truck,Express,811.2,13.61,Medium,3,2,1,2,0,2,1,Gold,29.5
+SHP-0184,Carrier_C,West,Air,Cold Chain,786.4,5.56,Medium,0,2,0,0,0,0,1,Gold,8.0
+SHP-0185,Carrier_B,South,Air,Cold Chain,706.3,6.68,High,1,0,0,0,0,2,1,Gold,6.0
+SHP-0186,Carrier_B,North,Air,Standard,1011.4,5.38,Low,3,1,4,1,1,1,1,Gold,30.0
+SHP-0187,Carrier_A,East,Air,Express,533.7,5.28,High,2,0,3,2,0,2,1,Gold,23.5
+SHP-0188,Carrier_B,South,Truck,Express,344.5,10.36,Medium,0,0,0,1,0,0,1,Bronze,3.5
+SHP-0189,Carrier_A,West,Ocean,Cold Chain,903.6,4.82,High,0,0,1,0,2,0,1,Silver,6.5
+SHP-0190,Carrier_B,West,Air,Express,907.8,5.31,High,2,0,0,1,0,0,0,Gold,9.5
+SHP-0191,Carrier_C,South,Truck,Express,870.1,2.53,High,0,0,2,3,2,0,0,Gold,19.5
+SHP-0192,Carrier_C,East,Air,Express,851.9,4.61,Low,1,1,0,1,0,2,1,Silver,13.5
+SHP-0193,Carrier_C,West,Air,Express,669.9,2.23,Low,2,0,1,0,2,0,0,Bronze,12.5
+SHP-0194,Carrier_B,East,Truck,Standard,946.9,8.08,Low,0,2,0,2,0,0,1,Gold,15.0
+SHP-0195,Carrier_D,North,Truck,Cold Chain,738.6,13.5,Medium,1,0,3,1,0,1,1,Silver,15.5
+SHP-0196,Carrier_A,East,Truck,Express,628.2,5.58,Low,0,1,1,5,0,0,1,Gold,24.0
+SHP-0197,Carrier_B,East,Air,Cold Chain,672.0,2.33,Critical,2,1,2,0,0,0,1,Silver,15.0
+SHP-0198,Carrier_A,East,Ocean,Express,1255.2,8.75,High,1,1,0,0,0,0,1,Gold,7.0
+SHP-0199,Carrier_B,North,Ocean,Express,316.3,4.68,High,2,1,0,1,0,0,1,Silver,13.5
+SHP-0200,Carrier_D,South,Air,Express,874.9,9.75,Medium,1,1,0,1,0,2,1,Gold,13.5
+SHP-0201,Carrier_B,West,Ocean,Cold Chain,330.2,5.79,Medium,2,1,0,1,0,0,1,Silver,13.5
+SHP-0202,Carrier_D,North,Truck,Standard,722.9,4.92,High,1,0,0,2,0,0,1,Silver,10.0
+SHP-0203,Carrier_B,South,Ocean,Cold Chain,641.6,6.06,Medium,1,0,1,1,1,0,1,Silver,11.0
+SHP-0204,Carrier_C,South,Air,Express,228.7,8.39,Medium,0,1,4,2,3,0,1,Silver,27.0
+SHP-0205,Carrier_B,North,Ocean,Express,847.3,5.93,Medium,4,0,3,2,0,0,0,Gold,26.5
+SHP-0206,Carrier_B,North,Ocean,Cold Chain,655.0,5.26,High,1,0,1,0,1,0,1,Silver,7.5
+SHP-0207,Carrier_D,South,Air,Express,225.2,6.0,Critical,1,1,0,0,0,1,1,Gold,8.5
+SHP-0208,Carrier_D,West,Truck,Express,959.9,3.32,Medium,0,0,0,1,0,1,1,Silver,5.0
+SHP-0209,Carrier_B,North,Air,Standard,1108.8,7.49,Medium,3,0,1,4,1,0,1,Gold,27.5
+SHP-0210,Carrier_D,South,Ocean,Standard,1122.5,2.03,Low,3,0,1,3,0,0,1,Gold,22.0
+SHP-0211,Carrier_B,North,Ocean,Express,839.7,5.39,Medium,2,2,1,0,2,0,1,Gold,20.5
+SHP-0212,Carrier_C,East,Ocean,Standard,761.5,8.4,High,2,0,2,2,0,0,1,Bronze,18.0
+SHP-0213,Carrier_D,South,Truck,Cold Chain,1082.0,7.26,Low,6,1,1,1,0,2,1,Silver,31.0
+SHP-0214,Carrier_B,West,Air,Standard,1170.6,7.98,High,3,1,6,2,2,0,0,Gold,39.0
+SHP-0215,Carrier_C,East,Truck,Standard,1033.4,6.34,Medium,0,0,0,0,1,0,1,Silver,2.0
+SHP-0216,Carrier_B,West,Ocean,Express,514.6,9.42,Low,3,1,0,0,3,1,1,Gold,20.5
+SHP-0217,Carrier_A,East,Ocean,Standard,800.3,8.81,Critical,4,1,0,0,0,0,1,Gold,16.0
+SHP-0218,Carrier_A,South,Truck,Cold Chain,859.9,7.62,Medium,1,0,0,1,0,2,1,Gold,9.5
+SHP-0219,Carrier_B,West,Air,Standard,297.6,8.82,High,0,0,0,1,0,0,1,Silver,3.5
+SHP-0220,Carrier_D,South,Ocean,Cold Chain,867.3,8.38,Medium,1,2,4,2,1,0,1,Bronze,30.0
+SHP-0221,Carrier_A,West,Ocean,Express,1318.2,5.4,Critical,0,0,0,0,1,0,1,Bronze,2.0
+SHP-0222,Carrier_B,West,Air,Express,910.0,3.14,Medium,1,1,1,4,0,1,1,Gold,25.0
+SHP-0223,Carrier_C,East,Truck,Standard,1118.4,7.55,Medium,1,1,3,1,0,0,0,Gold,18.0
+SHP-0224,Carrier_A,East,Ocean,Express,795.7,7.87,High,1,0,1,3,2,1,1,Silver,21.5
+SHP-0225,Carrier_C,South,Ocean,Standard,731.7,9.23,Medium,0,1,0,0,1,1,1,Gold,7.5
+SHP-0226,Carrier_B,West,Air,Cold Chain,845.3,4.16,Medium,0,0,0,0,0,0,1,Silver,0.0
+SHP-0227,Carrier_D,East,Ocean,Standard,546.0,4.23,Critical,1,1,0,0,0,0,1,Bronze,7.0
+SHP-0228,Carrier_C,West,Truck,Standard,509.1,7.65,High,1,1,1,2,0,1,1,Gold,18.0
+SHP-0229,Carrier_C,South,Air,Cold Chain,1066.6,6.32,High,1,1,0,1,0,0,1,Gold,10.5
+SHP-0230,Carrier_A,West,Truck,Express,1093.1,1.79,High,2,0,2,1,1,1,1,Bronze,18.0
+SHP-0231,Carrier_B,South,Ocean,Cold Chain,502.2,7.44,High,1,0,1,1,1,0,1,Silver,11.0
+SHP-0232,Carrier_D,North,Ocean,Express,992.0,1.87,Critical,1,0,1,2,2,1,1,Bronze,18.0
+SHP-0233,Carrier_A,North,Ocean,Cold Chain,728.3,4.14,High,1,0,1,1,1,0,0,Silver,11.0
+SHP-0234,Carrier_D,East,Air,Standard,835.0,9.88,Medium,3,1,1,1,1,0,1,Gold,21.0
+SHP-0235,Carrier_B,South,Truck,Express,865.1,11.06,Low,2,1,1,2,0,0,1,Silver,19.5
+SHP-0236,Carrier_C,North,Truck,Cold Chain,998.6,3.46,High,3,0,0,1,0,0,0,Silver,12.5
+SHP-0237,Carrier_C,South,Air,Express,770.7,5.68,High,0,0,2,2,1,0,1,Bronze,14.0
+SHP-0238,Carrier_B,East,Ocean,Standard,1102.5,6.61,Medium,2,0,0,2,1,0,1,Gold,15.0
+SHP-0239,Carrier_B,South,Truck,Cold Chain,827.4,10.95,Low,0,0,2,2,1,0,0,Silver,14.0
+SHP-0240,Carrier_C,West,Ocean,Cold Chain,906.0,5.27,Medium,1,2,0,0,0,0,1,Gold,11.0
+SHP-0241,Carrier_A,West,Truck,Cold Chain,541.7,5.31,High,1,0,1,0,1,1,1,Gold,9.0
+SHP-0242,Carrier_C,East,Air,Standard,1289.7,10.37,High,0,0,0,3,1,0,1,Bronze,12.5
+SHP-0243,Carrier_A,West,Truck,Standard,867.5,5.56,Low,0,0,1,0,0,1,1,Bronze,4.0
+SHP-0244,Carrier_C,South,Air,Express,928.2,8.31,High,0,1,2,1,2,0,0,Silver,16.5
+SHP-0245,Carrier_C,North,Air,Cold Chain,348.0,2.81,High,4,0,7,3,1,0,0,Bronze,42.0
+SHP-0246,Carrier_A,North,Truck,Standard,544.3,6.07,Critical,3,1,0,0,1,0,1,Gold,15.0
+SHP-0247,Carrier_D,West,Air,Cold Chain,1059.5,2.35,Low,3,0,3,1,0,0,0,Silver,20.0
+SHP-0248,Carrier_B,West,Ocean,Standard,821.7,3.86,Critical,2,1,1,0,1,1,1,Silver,16.0
+SHP-0249,Carrier_D,East,Ocean,Cold Chain,271.6,8.6,High,1,0,0,1,1,0,0,Silver,8.5
+SHP-0250,Carrier_A,North,Truck,Express,1009.6,6.38,High,1,0,1,0,0,0,1,Silver,5.5
+SHP-0251,Carrier_A,South,Ocean,Cold Chain,614.1,5.7,Low,3,0,3,2,2,0,1,Silver,27.5
+SHP-0252,Carrier_B,North,Ocean,Express,1102.8,4.63,High,2,1,2,2,1,1,0,Bronze,25.5
+SHP-0253,Carrier_A,North,Ocean,Express,728.0,5.95,High,1,1,2,1,0,1,1,Gold,17.0
+SHP-0254,Carrier_B,North,Air,Standard,801.2,7.25,Medium,1,2,0,1,0,0,1,Silver,14.5
+SHP-0255,Carrier_C,East,Ocean,Standard,1044.7,8.96,Medium,2,2,1,0,1,0,0,Gold,18.5
+SHP-0256,Carrier_A,North,Air,Cold Chain,525.6,1.0,High,3,0,2,0,0,1,1,Gold,15.5
+SHP-0257,Carrier_C,West,Truck,Standard,501.8,4.42,High,1,1,2,0,1,0,1,Silver,14.0
+SHP-0258,Carrier_A,South,Truck,Express,700.9,6.9,Low,3,2,4,0,1,0,1,Silver,29.0
+SHP-0259,Carrier_A,South,Ocean,Express,956.8,6.25,Medium,1,2,1,1,0,1,1,Bronze,18.5
+SHP-0260,Carrier_C,East,Truck,Standard,417.3,7.51,Medium,0,0,0,0,0,1,0,Gold,1.5
+SHP-0261,Carrier_D,West,Air,Standard,333.0,7.17,Critical,3,0,1,0,0,0,1,Gold,11.5
+SHP-0262,Carrier_A,South,Ocean,Standard,955.9,5.74,Critical,1,0,2,0,1,0,1,Silver,10.0
+SHP-0263,Carrier_B,North,Truck,Express,599.3,5.18,Medium,2,0,2,1,2,0,1,Bronze,18.5
+SHP-0264,Carrier_D,North,Air,Standard,651.9,5.89,Low,2,1,2,0,2,0,1,Bronze,19.0
+SHP-0265,Carrier_D,West,Truck,Standard,285.8,9.37,Medium,2,1,1,0,1,1,1,Bronze,16.0
+SHP-0266,Carrier_C,North,Air,Cold Chain,580.3,4.67,Medium,2,1,2,1,1,0,1,Gold,20.5
+SHP-0267,Carrier_B,East,Truck,Standard,748.1,6.34,Critical,0,1,1,1,4,0,0,Bronze,18.0
+SHP-0268,Carrier_B,South,Ocean,Cold Chain,982.6,6.96,High,2,1,3,2,1,0,0,Gold,26.5
+SHP-0269,Carrier_C,West,Truck,Express,557.2,10.4,Low,4,1,0,0,0,1,1,Bronze,17.5
+SHP-0270,Carrier_C,North,Ocean,Cold Chain,1164.3,5.75,Low,3,1,2,2,0,1,0,Silver,26.5
+SHP-0271,Carrier_B,West,Ocean,Express,578.9,8.9,Medium,1,0,0,2,2,0,1,Gold,14.0
+SHP-0272,Carrier_A,East,Ocean,Express,579.2,9.58,High,0,1,1,0,2,1,0,Silver,12.0
+SHP-0273,Carrier_A,South,Ocean,Cold Chain,1134.3,6.34,High,1,2,2,3,0,1,1,Silver,28.0
+SHP-0274,Carrier_D,North,Truck,Standard,802.9,5.97,High,0,0,0,1,1,0,1,Gold,5.5
+SHP-0275,Carrier_B,West,Ocean,Standard,612.0,5.68,Medium,3,0,5,3,0,1,0,Gold,33.5
+SHP-0276,Carrier_B,South,Air,Standard,711.2,5.86,Critical,3,2,1,2,1,2,0,Silver,31.5
+SHP-0277,Carrier_B,South,Ocean,Cold Chain,1088.3,8.64,Medium,1,0,1,1,1,0,1,Bronze,11.0
+SHP-0278,Carrier_D,South,Ocean,Express,1116.6,7.08,High,1,0,0,0,0,1,0,Silver,4.5
+SHP-0279,Carrier_A,North,Air,Express,545.8,7.09,Critical,2,1,1,0,0,1,1,Gold,14.0
+SHP-0280,Carrier_A,South,Air,Express,739.4,3.69,Medium,1,0,0,1,1,0,1,Silver,8.5
+SHP-0281,Carrier_B,North,Truck,Cold Chain,772.5,4.08,Critical,0,1,1,1,0,0,1,Gold,10.0
+SHP-0282,Carrier_B,North,Truck,Express,503.4,11.86,Medium,0,0,0,1,0,1,1,Gold,5.0
+SHP-0283,Carrier_C,South,Air,Standard,736.1,6.06,High,0,2,0,0,1,0,1,Gold,10.0
+SHP-0284,Carrier_B,North,Ocean,Standard,751.3,4.56,Low,0,1,0,1,0,0,1,Gold,7.5
+SHP-0285,Carrier_B,South,Air,Express,1035.1,10.08,Medium,2,1,1,1,0,0,1,Gold,16.0
+SHP-0286,Carrier_D,West,Air,Standard,1051.9,7.2,Medium,1,1,2,2,1,0,1,Gold,21.0
+SHP-0287,Carrier_A,North,Truck,Express,667.7,7.95,Low,1,2,1,3,0,0,1,Gold,24.0
+SHP-0288,Carrier_C,North,Air,Express,696.5,6.15,Low,2,0,0,1,2,0,1,Silver,13.5
+SHP-0289,Carrier_C,North,Air,Express,916.1,5.7,Medium,3,1,0,2,0,0,1,Gold,20.0
+SHP-0290,Carrier_B,East,Ocean,Cold Chain,603.7,6.08,High,0,1,1,1,3,0,1,Gold,16.0
+SHP-0291,Carrier_D,South,Ocean,Standard,897.2,3.04,Medium,3,0,2,0,2,0,1,Silver,18.0
+SHP-0292,Carrier_B,South,Air,Cold Chain,728.0,6.28,Medium,3,0,1,2,2,1,1,Silver,24.0
+SHP-0293,Carrier_D,North,Ocean,Standard,507.7,7.24,Critical,1,1,2,1,0,1,1,Silver,17.0
+SHP-0294,Carrier_B,South,Air,Express,510.8,11.13,Critical,3,1,2,3,0,0,1,Gold,28.5
+SHP-0295,Carrier_C,South,Ocean,Standard,1111.8,6.71,Low,1,0,0,0,2,1,1,Silver,8.5
+SHP-0296,Carrier_C,South,Air,Cold Chain,710.9,1.0,Medium,1,0,1,1,1,1,0,Silver,12.5
+SHP-0297,Carrier_D,East,Truck,Standard,1160.1,6.27,High,2,0,5,0,1,0,1,Silver,20.5
+SHP-0298,Carrier_B,West,Air,Express,621.6,13.35,High,1,1,1,3,1,0,1,Silver,22.0
+SHP-0299,Carrier_B,South,Truck,Express,822.8,8.67,Medium,2,1,1,2,0,0,1,Gold,19.5
+SHP-0300,Carrier_A,West,Truck,Cold Chain,1348.2,4.47,High,3,0,1,2,0,0,1,Gold,18.5
+SHP-0301,Carrier_B,East,Ocean,Standard,485.7,7.98,Low,3,0,3,2,2,0,0,Gold,27.5
+SHP-0302,Carrier_D,South,Ocean,Cold Chain,275.5,4.64,Medium,3,1,1,1,1,0,1,Gold,21.0
+SHP-0303,Carrier_A,North,Truck,Standard,1071.6,3.12,High,1,1,2,1,0,0,0,Bronze,15.5
+SHP-0304,Carrier_D,South,Ocean,Express,543.3,5.63,High,2,1,1,1,1,1,0,Gold,19.5
+SHP-0305,Carrier_C,East,Truck,Cold Chain,744.8,6.73,High,3,1,1,1,0,1,1,Silver,20.5
+SHP-0306,Carrier_A,North,Truck,Cold Chain,603.5,1.82,Low,3,1,3,0,1,0,0,Bronze,22.5
+SHP-0307,Carrier_B,West,Ocean,Cold Chain,817.0,3.63,Low,1,1,1,1,0,0,1,Silver,13.0
+SHP-0308,Carrier_C,South,Truck,Cold Chain,512.4,6.53,Low,0,1,3,1,0,1,1,Gold,16.5
+SHP-0309,Carrier_B,West,Ocean,Express,705.0,5.48,Low,1,1,1,0,1,0,1,Bronze,11.5
+SHP-0310,Carrier_A,East,Ocean,Cold Chain,862.5,7.49,Low,1,0,2,1,0,0,1,Gold,11.5
+SHP-0311,Carrier_C,South,Truck,Express,497.9,3.46,High,0,1,0,1,2,1,0,Gold,13.0
+SHP-0312,Carrier_C,North,Truck,Cold Chain,575.0,8.29,High,4,0,0,1,0,0,1,Gold,15.5
+SHP-0313,Carrier_A,East,Ocean,Express,663.2,3.54,High,3,3,4,1,0,1,0,Gold,36.0
+SHP-0314,Carrier_B,South,Air,Standard,392.8,10.61,Medium,3,0,2,0,0,0,1,Silver,14.0
+SHP-0315,Carrier_A,North,Air,Cold Chain,644.4,2.21,Low,1,1,1,2,2,1,1,Gold,22.0
+SHP-0316,Carrier_C,West,Air,Express,779.7,3.77,High,2,1,4,4,1,0,0,Silver,36.0
+SHP-0317,Carrier_C,South,Air,Express,650.1,7.54,Low,0,2,0,0,1,0,1,Gold,10.0
+SHP-0318,Carrier_C,North,Ocean,Cold Chain,682.2,10.66,Critical,6,0,2,0,0,1,1,Bronze,24.5
+SHP-0319,Carrier_D,South,Air,Express,745.0,7.29,Low,1,0,1,2,0,0,1,Gold,12.5
+SHP-0320,Carrier_D,South,Truck,Standard,586.1,7.91,High,0,0,0,4,1,0,1,Bronze,16.0
+SHP-0321,Carrier_B,West,Air,Cold Chain,922.8,6.54,Critical,1,1,1,2,0,0,0,Gold,16.5
+SHP-0322,Carrier_A,East,Ocean,Standard,1109.0,3.93,High,4,0,3,0,0,0,1,Bronze,19.5
+SHP-0323,Carrier_C,North,Truck,Standard,633.9,5.27,High,0,0,2,1,0,0,1,Silver,8.5
+SHP-0324,Carrier_D,North,Air,Standard,871.3,3.47,High,1,1,1,0,1,0,1,Silver,11.5
+SHP-0325,Carrier_D,East,Ocean,Standard,690.1,3.3,Low,1,0,1,0,0,0,1,Gold,5.5
+SHP-0326,Carrier_A,North,Air,Standard,841.4,7.5,High,0,1,0,0,0,0,1,Silver,4.0
+SHP-0327,Carrier_A,South,Truck,Standard,1141.4,3.69,Critical,1,0,4,2,2,0,0,Silver,24.0
+SHP-0328,Carrier_A,North,Truck,Express,877.2,7.3,Critical,1,1,0,2,2,0,1,Silver,18.0
+SHP-0329,Carrier_A,North,Air,Standard,306.6,3.25,Medium,1,2,0,0,0,0,1,Silver,11.0
+SHP-0330,Carrier_C,West,Air,Cold Chain,863.5,7.24,Medium,2,0,5,3,0,0,0,Bronze,29.0
+SHP-0331,Carrier_C,North,Ocean,Cold Chain,1058.2,5.28,High,2,0,4,1,0,0,0,Bronze,19.5
+SHP-0332,Carrier_B,North,Air,Express,694.6,10.02,High,3,0,3,2,1,1,1,Silver,27.0
+SHP-0333,Carrier_B,West,Ocean,Cold Chain,998.9,7.31,Medium,1,0,2,1,1,0,1,Gold,13.5
+SHP-0334,Carrier_D,North,Truck,Cold Chain,577.5,9.59,Low,2,0,3,2,0,0,0,Gold,20.5
+SHP-0335,Carrier_B,West,Air,Express,378.6,4.61,Low,0,1,0,1,0,1,1,Silver,9.0
+SHP-0336,Carrier_D,North,Truck,Cold Chain,785.3,6.64,Medium,1,0,2,1,0,1,1,Bronze,13.0
+SHP-0337,Carrier_D,North,Air,Standard,310.9,4.05,Low,0,2,0,1,0,0,0,Gold,11.5
+SHP-0338,Carrier_B,North,Truck,Standard,690.1,5.47,Low,0,2,3,0,1,0,1,Gold,17.5
+SHP-0339,Carrier_A,East,Air,Cold Chain,1071.7,5.84,Low,2,0,4,0,2,1,0,Gold,21.5
+SHP-0340,Carrier_D,East,Air,Standard,272.6,4.69,Critical,3,2,2,2,1,2,1,Gold,34.0
+SHP-0341,Carrier_C,South,Truck,Standard,430.1,3.46,Low,3,1,1,0,0,0,1,Bronze,15.5
+SHP-0342,Carrier_B,North,Truck,Express,492.0,2.97,Low,0,0,2,0,0,0,1,Silver,5.0
+SHP-0343,Carrier_C,North,Air,Cold Chain,734.2,1.0,Medium,0,1,0,0,1,0,1,Gold,6.0
+SHP-0344,Carrier_C,East,Ocean,Cold Chain,658.6,3.86,Medium,0,1,1,1,2,0,1,Gold,14.0
+SHP-0345,Carrier_D,North,Truck,Express,1099.8,8.07,Critical,0,1,1,0,1,0,1,Gold,8.5
+SHP-0346,Carrier_B,East,Air,Cold Chain,988.6,2.5,Critical,1,1,2,1,0,1,0,Silver,17.0
+SHP-0347,Carrier_D,East,Truck,Express,873.8,3.08,Medium,2,1,2,0,0,1,0,Silver,16.5
+SHP-0348,Carrier_D,West,Ocean,Standard,786.4,10.98,Medium,2,1,0,0,0,0,1,Gold,10.0
+SHP-0349,Carrier_A,South,Air,Cold Chain,848.3,4.91,Medium,5,0,1,1,0,0,1,Gold,21.0
+SHP-0350,Carrier_A,North,Ocean,Express,534.5,7.3,Low,3,0,1,0,1,0,0,Bronze,13.5
+SHP-0351,Carrier_C,South,Truck,Standard,964.3,8.11,Medium,3,0,0,1,0,1,1,Silver,14.0
+SHP-0352,Carrier_A,West,Truck,Express,472.0,8.16,Low,2,0,5,5,2,1,0,Silver,41.5
+SHP-0353,Carrier_B,East,Air,Cold Chain,958.8,2.69,Low,3,2,2,1,1,0,1,Gold,27.5
+SHP-0354,Carrier_B,East,Air,Standard,1046.5,5.92,High,1,2,0,2,0,1,0,Bronze,19.5
+SHP-0355,Carrier_D,South,Ocean,Standard,802.7,2.45,Low,4,0,5,3,1,1,0,Silver,38.5
+SHP-0356,Carrier_D,North,Ocean,Cold Chain,705.9,12.62,Low,2,0,1,0,0,0,1,Bronze,8.5
+SHP-0357,Carrier_A,West,Ocean,Standard,850.1,2.51,Medium,3,1,0,1,2,0,1,Gold,20.5
+SHP-0358,Carrier_D,West,Air,Cold Chain,34.6,3.88,Medium,4,0,3,5,0,0,0,Gold,37.0
+SHP-0359,Carrier_A,West,Air,Express,825.6,3.9,Low,1,1,0,2,1,1,1,Gold,17.5
+SHP-0360,Carrier_C,West,Air,Express,721.7,2.76,Low,2,1,1,2,0,0,0,Bronze,19.5
+SHP-0361,Carrier_D,South,Truck,Cold Chain,737.3,9.88,Low,2,5,1,2,0,0,0,Silver,35.5
+SHP-0362,Carrier_D,South,Air,Cold Chain,926.6,12.56,Medium,5,2,2,1,0,0,1,Gold,31.5
+SHP-0363,Carrier_A,North,Air,Standard,731.3,5.31,High,2,0,1,1,0,1,1,Bronze,13.5
+SHP-0364,Carrier_D,West,Truck,Standard,464.9,3.2,Critical,1,0,1,2,1,1,0,Bronze,16.0
+SHP-0365,Carrier_A,East,Truck,Express,714.6,1.0,Medium,2,1,1,0,2,0,0,Gold,16.5
+SHP-0366,Carrier_C,South,Air,Cold Chain,766.9,5.89,Medium,0,0,2,1,1,0,1,Silver,10.5
+SHP-0367,Carrier_B,West,Air,Cold Chain,778.7,5.71,High,2,0,0,0,1,0,1,Silver,8.0
+SHP-0368,Carrier_B,East,Ocean,Express,790.5,4.87,High,2,1,2,0,0,1,1,Gold,16.5
+SHP-0369,Carrier_A,West,Air,Standard,1009.8,7.05,Low,3,1,1,1,0,0,1,Silver,19.0
+SHP-0370,Carrier_D,West,Ocean,Standard,478.5,7.49,Low,2,0,0,2,1,1,1,Gold,16.5
+SHP-0371,Carrier_B,North,Air,Standard,793.9,7.31,Medium,0,0,2,1,1,1,1,Bronze,12.0
+SHP-0372,Carrier_C,South,Truck,Cold Chain,1072.5,5.71,High,1,2,3,0,1,0,1,Silver,20.5
+SHP-0373,Carrier_B,East,Truck,Express,316.3,3.75,Low,4,0,1,0,0,0,1,Bronze,14.5
+SHP-0374,Carrier_B,West,Ocean,Express,794.9,8.16,Medium,2,0,5,2,0,2,1,Silver,28.5
+SHP-0375,Carrier_D,North,Air,Express,603.7,6.53,Medium,1,0,2,1,0,0,0,Gold,11.5
+SHP-0376,Carrier_A,South,Truck,Cold Chain,657.3,8.72,Medium,0,1,0,1,2,0,1,Gold,11.5
+SHP-0377,Carrier_C,East,Air,Standard,523.8,8.48,Medium,2,1,6,1,0,0,0,Silver,28.5
+SHP-0378,Carrier_C,West,Ocean,Cold Chain,707.6,2.95,High,0,0,3,1,0,0,1,Gold,11.0
+SHP-0379,Carrier_B,North,Air,Standard,1210.3,2.91,High,2,0,1,0,3,0,0,Silver,14.5
+SHP-0380,Carrier_B,East,Truck,Express,433.9,4.61,Medium,3,0,0,0,0,1,1,Gold,10.5
+SHP-0381,Carrier_A,South,Truck,Standard,457.6,3.86,Low,5,0,0,0,0,0,1,Gold,15.0
+SHP-0382,Carrier_D,North,Ocean,Express,424.5,8.39,High,3,0,0,1,1,1,0,Silver,16.0
+SHP-0383,Carrier_D,East,Ocean,Cold Chain,1181.9,7.38,Medium,0,0,0,1,0,0,1,Silver,3.5
+SHP-0384,Carrier_A,South,Ocean,Cold Chain,634.4,9.25,Low,1,1,1,1,0,1,0,Silver,14.5
+SHP-0385,Carrier_A,East,Ocean,Cold Chain,743.6,7.49,Medium,1,0,0,1,3,0,1,Silver,12.5
+SHP-0386,Carrier_A,South,Truck,Standard,649.3,7.02,High,3,0,6,2,0,0,0,Gold,31.0
+SHP-0387,Carrier_A,West,Truck,Express,513.9,9.5,High,2,3,0,1,0,1,1,Silver,23.0
+SHP-0388,Carrier_D,North,Truck,Express,691.2,7.67,Critical,0,1,3,1,1,0,1,Silver,17.0
+SHP-0389,Carrier_D,West,Truck,Standard,1364.6,6.67,High,3,2,1,0,1,0,1,Silver,21.5
+SHP-0390,Carrier_A,North,Ocean,Standard,1098.0,10.2,Medium,1,0,2,0,2,0,1,Gold,12.0
+SHP-0391,Carrier_C,East,Ocean,Cold Chain,536.8,6.79,Medium,3,0,2,4,1,0,0,Silver,30.0
+SHP-0392,Carrier_A,South,Truck,Cold Chain,911.9,5.74,Low,2,0,0,0,2,0,1,Gold,10.0
+SHP-0393,Carrier_B,South,Ocean,Express,542.1,4.41,High,1,1,0,1,0,1,1,Silver,12.0
+SHP-0394,Carrier_C,North,Air,Express,305.9,8.26,High,0,2,2,0,4,3,1,Gold,25.5
+SHP-0395,Carrier_C,East,Truck,Standard,1004.9,9.59,Low,0,0,1,0,0,0,1,Bronze,2.5
+SHP-0396,Carrier_D,North,Ocean,Standard,1040.0,6.37,Critical,1,1,2,0,0,1,1,Silver,13.5
+SHP-0397,Carrier_A,East,Ocean,Express,1011.5,9.77,Medium,4,0,4,0,0,0,1,Silver,22.0
+SHP-0398,Carrier_A,East,Air,Cold Chain,632.5,1.57,Low,0,0,1,1,1,0,1,Silver,8.0
+SHP-0399,Carrier_B,West,Ocean,Cold Chain,708.3,6.36,Medium,2,2,1,0,0,0,1,Silver,16.5
+SHP-0400,Carrier_B,East,Air,Standard,937.4,6.4,Critical,1,0,0,1,0,0,1,Gold,6.5
+SHP-0401,Carrier_D,South,Ocean,Express,847.9,4.68,Critical,2,1,4,1,3,1,0,Silver,31.0
+SHP-0402,Carrier_D,East,Air,Cold Chain,651.6,12.46,Medium,1,0,2,0,1,0,0,Bronze,10.0
+SHP-0403,Carrier_B,West,Ocean,Express,345.2,6.33,Critical,1,1,1,0,0,0,1,Gold,9.5
+SHP-0404,Carrier_D,South,Truck,Standard,778.5,5.48,Critical,0,0,1,0,1,1,1,Gold,6.0
+SHP-0405,Carrier_B,North,Truck,Cold Chain,1019.8,6.56,High,2,1,0,0,1,0,1,Silver,12.0
+SHP-0406,Carrier_C,West,Ocean,Cold Chain,450.6,1.49,Critical,2,0,3,3,0,1,1,Gold,25.5
+SHP-0407,Carrier_B,North,Truck,Express,909.7,4.6,Medium,0,0,1,1,1,0,1,Silver,8.0
+SHP-0408,Carrier_A,East,Truck,Standard,832.9,8.96,High,1,1,2,0,0,0,1,Silver,12.0
+SHP-0409,Carrier_D,North,Ocean,Express,937.5,4.93,High,2,2,1,2,0,0,1,Silver,23.5
+SHP-0410,Carrier_A,North,Truck,Express,968.0,4.43,High,3,2,1,1,0,1,0,Gold,24.5
+SHP-0411,Carrier_A,West,Air,Standard,576.4,9.77,Low,0,2,2,1,1,1,1,Gold,20.0
+SHP-0412,Carrier_A,North,Truck,Cold Chain,345.8,9.85,High,1,0,0,0,1,0,1,Bronze,5.0
+SHP-0413,Carrier_B,East,Truck,Cold Chain,616.6,7.79,Critical,2,1,1,2,1,0,0,Gold,21.5
+SHP-0414,Carrier_A,East,Ocean,Standard,972.3,5.36,Medium,1,1,2,5,2,0,0,Silver,33.5
+SHP-0415,Carrier_A,North,Truck,Express,614.5,5.9,Critical,4,0,1,0,1,1,1,Gold,18.0
+SHP-0416,Carrier_C,North,Truck,Express,576.5,4.49,Medium,3,0,0,1,0,0,1,Gold,12.5
+SHP-0417,Carrier_D,West,Ocean,Express,294.7,4.01,Low,0,1,0,0,1,1,1,Gold,7.5
+SHP-0418,Carrier_A,East,Ocean,Express,1188.2,3.89,Low,1,1,3,0,0,0,1,Gold,14.5
+SHP-0419,Carrier_B,North,Truck,Express,956.4,4.95,High,4,0,4,0,0,0,1,Silver,22.0
+SHP-0420,Carrier_C,West,Ocean,Cold Chain,942.5,3.91,High,1,0,5,2,0,0,1,Silver,22.5
+SHP-0421,Carrier_D,South,Air,Express,991.9,2.59,Medium,1,0,3,1,1,1,0,Bronze,17.5
+SHP-0422,Carrier_C,North,Ocean,Express,894.2,7.05,High,3,1,2,2,2,1,0,Bronze,30.5
+SHP-0423,Carrier_D,West,Truck,Standard,688.9,7.09,Medium,1,0,1,0,0,1,0,Gold,7.0
+SHP-0424,Carrier_C,North,Ocean,Express,709.1,10.75,Medium,1,0,4,1,0,0,1,Gold,16.5
+SHP-0425,Carrier_B,East,Air,Standard,643.1,4.83,Critical,2,1,0,0,1,1,1,Bronze,13.5
+SHP-0426,Carrier_A,West,Ocean,Express,1408.7,7.24,High,0,0,5,0,0,0,0,Gold,12.5
+SHP-0427,Carrier_D,East,Air,Express,889.0,7.28,High,4,1,5,3,1,1,0,Gold,42.5
+SHP-0428,Carrier_D,East,Ocean,Standard,634.0,5.87,High,3,0,0,1,0,0,1,Gold,12.5
+SHP-0429,Carrier_A,South,Air,Cold Chain,866.4,8.36,Critical,1,1,0,0,2,0,0,Silver,11.0
+SHP-0430,Carrier_C,North,Truck,Standard,497.3,8.44,Medium,1,1,0,2,0,0,1,Gold,14.0
+SHP-0431,Carrier_A,East,Ocean,Standard,1126.1,7.32,Medium,4,0,1,1,0,1,0,Gold,19.5
+SHP-0432,Carrier_C,West,Ocean,Standard,584.7,5.86,Low,2,1,1,0,0,0,1,Silver,12.5
+SHP-0433,Carrier_D,North,Truck,Express,875.3,5.61,High,2,0,2,1,0,1,1,Silver,16.0
+SHP-0434,Carrier_A,West,Air,Express,1016.5,3.08,High,1,1,0,0,0,0,1,Gold,7.0
+SHP-0435,Carrier_B,South,Air,Standard,846.2,4.49,High,2,0,8,5,1,1,0,Silver,47.0
+SHP-0436,Carrier_A,East,Air,Express,773.6,4.94,Medium,1,0,1,1,2,0,1,Gold,13.0
+SHP-0437,Carrier_C,North,Ocean,Cold Chain,752.7,3.69,Low,0,1,1,1,0,1,1,Gold,11.5
+SHP-0438,Carrier_D,East,Ocean,Standard,735.9,7.6,High,3,0,1,0,1,1,1,Gold,15.0
+SHP-0439,Carrier_A,North,Truck,Express,605.8,9.49,Critical,2,0,0,0,0,0,1,Gold,6.0
+SHP-0440,Carrier_B,South,Ocean,Standard,637.6,4.23,Medium,3,0,0,1,1,0,1,Gold,14.5
+SHP-0441,Carrier_D,East,Air,Express,1119.9,7.21,Low,5,0,1,2,0,0,0,Bronze,24.5
+SHP-0442,Carrier_B,North,Ocean,Standard,722.9,3.91,Medium,1,1,1,0,2,1,1,Gold,15.0
+SHP-0443,Carrier_A,South,Ocean,Cold Chain,553.6,5.74,Medium,0,0,1,0,0,0,1,Bronze,2.5
+SHP-0444,Carrier_B,East,Air,Express,620.9,4.77,Medium,2,0,2,2,1,0,1,Gold,20.0
+SHP-0445,Carrier_C,North,Air,Standard,1025.1,8.0,Medium,3,0,0,1,0,0,1,Gold,12.5
+SHP-0446,Carrier_C,South,Air,Express,918.9,4.8,High,0,0,0,0,1,0,1,Silver,2.0
+SHP-0447,Carrier_B,South,Ocean,Standard,890.1,9.03,Medium,1,1,1,0,1,0,1,Silver,11.5
+SHP-0448,Carrier_D,East,Air,Express,685.6,5.89,Medium,2,1,2,0,1,0,1,Gold,17.0
+SHP-0449,Carrier_C,West,Truck,Standard,893.3,4.88,Low,2,2,1,0,0,2,1,Gold,19.5
+SHP-0450,Carrier_B,West,Air,Standard,589.1,3.37,Critical,0,0,0,1,0,1,1,Silver,5.0
+SHP-0451,Carrier_D,North,Truck,Express,685.1,7.13,Medium,3,1,0,3,0,0,1,Gold,23.5
+SHP-0452,Carrier_D,North,Air,Standard,992.5,8.74,Medium,2,0,0,1,0,0,1,Silver,9.5
+SHP-0453,Carrier_B,North,Truck,Cold Chain,968.6,7.18,Low,0,1,0,1,2,1,1,Silver,13.0
+SHP-0454,Carrier_A,East,Truck,Cold Chain,504.5,12.1,High,1,1,3,1,2,0,1,Gold,22.0
+SHP-0455,Carrier_C,North,Ocean,Express,536.1,10.07,Critical,1,0,2,1,3,1,1,Silver,19.0
+SHP-0456,Carrier_C,North,Truck,Standard,777.2,5.73,Low,2,0,1,0,2,1,0,Gold,14.0
+SHP-0457,Carrier_A,West,Air,Cold Chain,1181.5,5.7,Low,2,0,2,1,0,1,0,Bronze,16.0
+SHP-0458,Carrier_C,West,Ocean,Standard,271.1,7.67,Low,1,3,1,2,1,0,1,Bronze,26.5
+SHP-0459,Carrier_D,West,Ocean,Express,819.6,4.4,High,3,0,0,3,0,1,0,Silver,21.0
+SHP-0460,Carrier_A,South,Air,Standard,406.0,9.42,Critical,1,0,1,1,0,1,1,Bronze,10.5
+SHP-0461,Carrier_C,East,Truck,Express,591.4,7.4,Medium,3,0,0,0,2,0,1,Silver,13.0
+SHP-0462,Carrier_A,East,Ocean,Express,658.9,7.14,Medium,0,1,0,0,0,0,1,Gold,4.0
+SHP-0463,Carrier_C,North,Ocean,Standard,644.9,8.22,High,0,0,4,0,0,1,0,Gold,11.5
+SHP-0464,Carrier_B,East,Air,Standard,616.6,10.81,High,3,0,1,1,0,1,0,Gold,16.5
+SHP-0465,Carrier_A,East,Truck,Cold Chain,751.8,6.93,Medium,2,1,1,1,1,0,1,Gold,18.0
+SHP-0466,Carrier_D,South,Truck,Standard,616.2,6.22,Low,2,1,3,1,1,0,1,Silver,23.0
+SHP-0467,Carrier_A,West,Truck,Cold Chain,384.4,10.27,Medium,1,1,3,3,0,1,0,Gold,26.5
+SHP-0468,Carrier_C,East,Truck,Standard,945.0,8.92,High,0,0,1,0,1,1,1,Silver,6.0
+SHP-0469,Carrier_A,East,Ocean,Cold Chain,938.2,5.7,High,0,0,0,0,0,0,1,Gold,0.0
+SHP-0470,Carrier_D,East,Truck,Express,960.8,6.51,High,1,2,3,1,0,0,1,Gold,22.0
+SHP-0471,Carrier_C,West,Truck,Express,364.8,6.99,High,1,0,1,0,1,0,1,Gold,7.5
+SHP-0472,Carrier_D,East,Ocean,Cold Chain,824.7,7.4,Medium,0,0,0,0,2,0,1,Bronze,4.0
+SHP-0473,Carrier_B,South,Ocean,Cold Chain,919.0,3.11,Medium,1,1,2,0,1,0,1,Gold,14.0
+SHP-0474,Carrier_B,West,Truck,Cold Chain,492.2,2.64,Low,2,1,1,0,1,1,1,Gold,16.0
+SHP-0475,Carrier_C,East,Air,Express,752.3,4.28,Critical,0,0,1,1,1,1,1,Gold,9.5
+SHP-0476,Carrier_D,West,Air,Express,720.9,4.09,High,2,0,2,1,0,0,1,Bronze,14.5
+SHP-0477,Carrier_D,North,Air,Cold Chain,1210.5,4.89,Medium,2,0,2,1,1,1,0,Gold,18.0
+SHP-0478,Carrier_A,South,Ocean,Standard,1231.1,8.09,Low,2,0,0,2,1,0,1,Silver,15.0
+SHP-0479,Carrier_C,West,Ocean,Express,333.9,6.08,High,5,1,2,1,0,0,1,Gold,27.5
+SHP-0480,Carrier_A,East,Ocean,Cold Chain,1373.5,6.99,High,3,0,2,0,0,0,1,Gold,14.0
+SHP-0481,Carrier_B,West,Truck,Cold Chain,521.2,3.44,High,5,0,4,3,0,1,0,Silver,37.0
+SHP-0482,Carrier_D,North,Truck,Express,995.2,5.35,Medium,3,0,0,0,0,0,1,Silver,9.0
+SHP-0483,Carrier_B,North,Air,Cold Chain,992.6,7.97,Critical,3,1,2,3,0,1,1,Silver,30.0
+SHP-0484,Carrier_D,West,Truck,Cold Chain,501.1,7.99,High,1,0,2,0,1,1,0,Gold,11.5
+SHP-0485,Carrier_B,South,Air,Standard,873.3,4.69,High,1,0,1,2,2,0,1,Bronze,16.5
+SHP-0486,Carrier_A,East,Truck,Standard,723.1,6.9,High,4,0,3,1,0,0,0,Silver,23.0
+SHP-0487,Carrier_B,South,Ocean,Express,888.6,12.0,Critical,1,0,1,0,0,0,1,Bronze,5.5
+SHP-0488,Carrier_C,South,Truck,Cold Chain,807.7,6.46,Critical,2,0,1,2,0,0,1,Gold,15.5
+SHP-0489,Carrier_D,West,Truck,Cold Chain,1049.1,4.77,High,3,1,2,1,0,0,1,Gold,21.5
+SHP-0490,Carrier_C,North,Truck,Cold Chain,768.8,6.07,Medium,1,0,3,2,1,0,0,Gold,19.5
+SHP-0491,Carrier_D,West,Truck,Cold Chain,708.0,6.73,Medium,0,0,2,4,0,0,1,Silver,19.0
+SHP-0492,Carrier_D,West,Air,Express,1024.0,6.12,High,3,1,1,1,1,0,1,Silver,21.0
+SHP-0493,Carrier_D,East,Air,Standard,895.1,6.42,High,1,1,3,1,2,0,0,Gold,22.0
+SHP-0494,Carrier_C,South,Ocean,Standard,933.0,2.89,Low,1,1,3,0,2,0,0,Gold,18.5
+SHP-0495,Carrier_B,North,Truck,Cold Chain,583.9,4.09,Low,1,0,0,0,0,0,1,Gold,3.0
+SHP-0496,Carrier_B,East,Air,Standard,488.7,6.13,Critical,3,0,0,1,1,0,1,Gold,14.5
+SHP-0497,Carrier_A,South,Air,Standard,608.1,6.09,Critical,3,0,2,0,0,0,1,Silver,14.0
+SHP-0498,Carrier_B,North,Air,Express,594.8,5.08,Critical,2,2,0,0,1,0,1,Gold,16.0
+SHP-0499,Carrier_D,South,Ocean,Cold Chain,946.5,6.06,Medium,1,0,1,4,0,0,1,Gold,19.5
+SHP-0500,Carrier_B,West,Truck,Standard,994.0,6.65,High,3,0,5,1,1,1,0,Gold,28.5
+SHP-0501,Carrier_A,South,Air,Express,711.2,8.72,High,1,0,0,0,1,0,0,Gold,5.0
+SHP-0502,Carrier_C,North,Ocean,Cold Chain,1107.7,6.25,Medium,1,1,2,0,0,0,1,Bronze,12.0
+SHP-0503,Carrier_D,East,Ocean,Express,1092.1,7.5,Low,3,0,4,3,1,0,0,Gold,31.5
+SHP-0504,Carrier_D,North,Air,Express,810.8,5.15,Critical,0,2,2,1,0,0,1,Bronze,16.5
+SHP-0505,Carrier_B,West,Air,Express,544.5,7.93,Low,3,0,1,2,2,1,1,Silver,24.0
+SHP-0506,Carrier_B,West,Ocean,Standard,1143.8,7.44,High,0,1,1,5,0,2,0,Silver,27.0
+SHP-0507,Carrier_C,West,Air,Express,734.7,8.66,High,0,0,1,1,0,1,1,Gold,7.5
+SHP-0508,Carrier_A,West,Ocean,Cold Chain,781.5,8.28,High,3,0,1,1,1,1,1,Silver,18.5
+SHP-0509,Carrier_B,North,Truck,Standard,665.1,7.97,Medium,2,1,1,0,1,0,1,Silver,14.5
+SHP-0510,Carrier_A,North,Air,Express,527.6,6.25,High,1,1,1,0,1,0,1,Gold,11.5
+SHP-0511,Carrier_D,South,Truck,Express,382.8,7.11,Medium,2,2,0,0,0,0,1,Bronze,14.0
+SHP-0512,Carrier_C,South,Truck,Standard,908.2,9.16,High,3,0,1,0,1,0,1,Gold,13.5
+SHP-0513,Carrier_D,West,Air,Express,554.1,4.87,Medium,0,0,1,0,1,1,1,Gold,6.0
+SHP-0514,Carrier_D,East,Truck,Cold Chain,1514.9,4.93,High,3,1,7,2,2,1,0,Gold,43.0
+SHP-0515,Carrier_D,East,Air,Express,478.5,6.95,High,2,1,4,3,1,0,0,Silver,32.5
+SHP-0516,Carrier_A,West,Air,Standard,435.7,7.54,Low,1,0,2,0,0,0,1,Gold,8.0
+SHP-0517,Carrier_D,East,Air,Express,877.5,4.44,Medium,1,1,1,1,1,0,1,Gold,15.0
+SHP-0518,Carrier_A,South,Ocean,Express,1132.3,6.31,High,1,1,2,0,0,0,1,Gold,12.0
+SHP-0519,Carrier_B,South,Ocean,Express,766.1,6.27,Low,0,2,3,3,1,0,1,Gold,28.0
+SHP-0520,Carrier_C,East,Air,Express,893.1,1.0,Low,0,0,2,1,0,0,1,Gold,8.5
+SHP-0521,Carrier_B,North,Truck,Cold Chain,289.1,5.95,Medium,3,0,1,1,0,1,1,Bronze,16.5
+SHP-0522,Carrier_A,East,Ocean,Cold Chain,580.6,6.11,Critical,1,1,2,0,2,1,1,Gold,17.5
+SHP-0523,Carrier_A,East,Truck,Cold Chain,481.6,6.1,High,1,0,1,2,0,0,1,Bronze,12.5
+SHP-0524,Carrier_D,East,Air,Express,276.2,10.04,Medium,4,1,3,0,0,2,0,Silver,26.5
+SHP-0525,Carrier_B,East,Air,Cold Chain,779.2,3.46,Critical,0,0,0,0,1,1,1,Silver,3.5
+SHP-0526,Carrier_B,West,Truck,Standard,189.3,4.44,Medium,0,1,2,1,0,1,1,Bronze,14.0
+SHP-0527,Carrier_D,West,Air,Express,419.5,1.0,Medium,3,0,1,1,0,0,1,Gold,15.0
+SHP-0528,Carrier_A,East,Truck,Express,615.7,5.3,Medium,3,2,1,0,0,1,1,Silver,21.0
+SHP-0529,Carrier_D,South,Truck,Standard,542.2,5.51,Medium,0,1,1,0,1,0,1,Gold,8.5
+SHP-0530,Carrier_D,North,Air,Standard,849.1,5.23,Medium,0,0,0,1,0,0,1,Gold,3.5
+SHP-0531,Carrier_C,West,Truck,Express,826.4,9.27,High,4,1,4,2,0,0,0,Gold,33.0
+SHP-0532,Carrier_A,West,Ocean,Cold Chain,973.4,8.65,Low,1,0,2,1,0,1,0,Silver,13.0
+SHP-0533,Carrier_A,East,Truck,Cold Chain,938.1,6.69,High,1,1,0,1,1,0,1,Silver,12.5
+SHP-0534,Carrier_B,West,Air,Standard,1035.2,5.57,Medium,0,0,2,1,0,0,1,Gold,8.5
+SHP-0535,Carrier_C,West,Ocean,Cold Chain,749.5,9.07,Medium,2,0,2,4,1,1,1,Silver,28.5
+SHP-0536,Carrier_A,West,Truck,Cold Chain,825.9,6.45,Low,0,1,1,1,1,0,1,Gold,12.0
+SHP-0537,Carrier_B,East,Ocean,Cold Chain,877.9,4.45,High,1,1,3,0,0,1,1,Gold,16.0
+SHP-0538,Carrier_A,North,Ocean,Express,785.4,2.21,High,1,1,4,2,1,1,0,Gold,27.5
+SHP-0539,Carrier_C,North,Ocean,Cold Chain,650.7,5.4,Medium,1,0,4,3,0,0,0,Silver,23.5
+SHP-0540,Carrier_A,North,Truck,Standard,666.9,8.39,Low,3,0,0,3,1,0,1,Gold,21.5
+SHP-0541,Carrier_C,South,Ocean,Cold Chain,545.6,12.19,Medium,3,1,0,1,1,0,1,Gold,18.5
+SHP-0542,Carrier_A,East,Ocean,Cold Chain,855.4,6.65,High,2,1,5,2,2,0,0,Gold,33.5
+SHP-0543,Carrier_A,South,Ocean,Express,726.5,4.59,Medium,2,0,0,0,1,0,1,Silver,8.0
+SHP-0544,Carrier_A,North,Truck,Standard,584.2,3.54,High,3,2,1,0,0,0,1,Silver,19.5
+SHP-0545,Carrier_D,North,Ocean,Express,584.4,7.88,Medium,2,1,0,0,0,0,1,Gold,10.0
+SHP-0546,Carrier_A,West,Truck,Express,447.4,2.09,Low,3,1,0,1,4,0,1,Silver,24.5
+SHP-0547,Carrier_B,West,Air,Standard,994.7,7.88,High,2,0,0,0,1,0,1,Silver,8.0
+SHP-0548,Carrier_C,South,Air,Cold Chain,769.7,8.54,Medium,0,0,3,1,2,1,1,Gold,16.5
+SHP-0549,Carrier_C,West,Air,Cold Chain,534.3,7.59,Low,0,0,2,0,1,0,1,Gold,7.0
+SHP-0550,Carrier_C,East,Air,Standard,952.1,5.95,Critical,1,0,1,1,2,1,0,Bronze,14.5
+SHP-0551,Carrier_D,West,Truck,Express,609.9,7.91,Low,1,0,1,3,0,0,0,Gold,16.0
+SHP-0552,Carrier_B,West,Air,Standard,398.4,6.93,Medium,1,1,0,1,1,0,1,Gold,12.5
+SHP-0553,Carrier_D,East,Ocean,Cold Chain,1005.3,4.55,Medium,6,0,5,4,1,1,0,Bronze,48.0
+SHP-0554,Carrier_B,South,Air,Cold Chain,615.7,11.13,Medium,0,0,2,0,1,0,1,Silver,7.0
+SHP-0555,Carrier_D,East,Truck,Express,647.8,5.62,High,0,1,0,0,1,0,0,Silver,6.0
+SHP-0556,Carrier_C,South,Ocean,Express,760.3,8.44,Low,1,0,1,2,3,1,0,Silver,20.0
+SHP-0557,Carrier_C,South,Truck,Cold Chain,1035.6,1.0,Critical,1,1,3,2,0,1,1,Gold,23.0
+SHP-0558,Carrier_D,East,Air,Express,755.0,9.69,High,4,1,2,0,2,0,1,Silver,25.0
+SHP-0559,Carrier_D,East,Air,Express,450.2,10.17,Critical,0,1,0,2,1,0,0,Gold,13.0
+SHP-0560,Carrier_D,East,Air,Express,886.0,6.57,High,2,2,0,2,0,1,0,Bronze,22.5
+SHP-0561,Carrier_C,South,Ocean,Standard,628.8,7.9,Critical,2,0,2,1,3,0,0,Gold,20.5
+SHP-0562,Carrier_A,South,Air,Standard,1222.0,7.9,High,1,0,2,3,0,1,1,Gold,20.0
+SHP-0563,Carrier_B,North,Ocean,Standard,749.7,4.89,Medium,4,0,0,0,2,0,1,Gold,16.0
+SHP-0564,Carrier_A,East,Truck,Express,191.2,7.87,Medium,0,2,3,0,1,0,1,Silver,17.5
+SHP-0565,Carrier_D,East,Ocean,Cold Chain,839.3,4.48,High,2,3,3,1,2,0,1,Silver,33.0
+SHP-0566,Carrier_A,West,Air,Cold Chain,1236.1,4.98,Medium,0,0,3,0,0,0,1,Silver,7.5
+SHP-0567,Carrier_A,East,Truck,Standard,1144.0,9.32,High,2,0,2,1,1,0,1,Gold,16.5
+SHP-0568,Carrier_A,South,Truck,Express,1207.7,8.94,Low,0,0,1,0,0,0,1,Gold,2.5
+SHP-0569,Carrier_C,North,Ocean,Standard,495.1,4.73,High,0,0,0,0,0,1,1,Silver,1.5
+SHP-0570,Carrier_C,North,Air,Cold Chain,978.0,4.67,Medium,2,0,1,1,1,1,1,Gold,15.5
+SHP-0571,Carrier_D,South,Air,Standard,569.5,4.89,Critical,2,0,0,1,1,0,1,Silver,11.5
+SHP-0572,Carrier_B,South,Truck,Express,806.1,8.33,Low,2,0,6,1,0,0,0,Bronze,24.5
+SHP-0573,Carrier_B,South,Air,Standard,431.8,4.0,Low,1,0,1,1,1,1,1,Silver,12.5
+SHP-0574,Carrier_A,South,Ocean,Standard,588.9,7.39,High,2,0,1,1,1,0,0,Gold,14.0
+SHP-0575,Carrier_A,West,Truck,Standard,580.9,8.37,High,3,0,1,0,0,0,1,Silver,11.5
+SHP-0576,Carrier_B,North,Air,Standard,974.6,6.28,High,3,0,5,4,0,0,0,Bronze,35.5
+SHP-0577,Carrier_D,South,Air,Express,950.2,9.03,Critical,0,1,1,1,0,0,1,Silver,10.0
+SHP-0578,Carrier_C,North,Ocean,Cold Chain,819.2,5.74,Medium,0,0,0,1,0,0,1,Silver,3.5
+SHP-0579,Carrier_D,South,Truck,Standard,412.4,5.97,High,0,0,0,1,0,2,1,Gold,6.5
+SHP-0580,Carrier_A,East,Air,Standard,672.1,4.06,Medium,4,0,4,1,0,0,0,Silver,25.5
+SHP-0581,Carrier_A,North,Ocean,Standard,563.5,9.04,High,2,0,0,2,1,0,1,Gold,15.0
+SHP-0582,Carrier_D,South,Truck,Standard,967.4,4.58,Medium,2,0,0,2,2,0,1,Silver,17.0
+SHP-0583,Carrier_A,North,Ocean,Express,1044.5,7.37,Low,2,1,3,1,1,0,0,Bronze,23.0
+SHP-0584,Carrier_A,West,Ocean,Cold Chain,1014.1,6.32,High,2,0,2,1,3,1,0,Bronze,22.0
+SHP-0585,Carrier_B,East,Ocean,Express,561.2,3.87,High,4,1,2,2,3,0,1,Gold,34.0
+SHP-0586,Carrier_D,North,Air,Standard,65.1,4.98,Low,1,0,1,1,2,0,1,Silver,13.0
+SHP-0587,Carrier_C,North,Ocean,Express,308.3,9.96,Critical,3,0,3,2,3,0,1,Gold,29.5
+SHP-0588,Carrier_A,North,Ocean,Express,1105.4,7.0,High,2,1,2,1,1,2,1,Gold,23.5
+SHP-0589,Carrier_D,South,Ocean,Express,649.7,3.98,Low,0,1,4,2,0,1,1,Silver,22.5
+SHP-0590,Carrier_D,West,Air,Cold Chain,562.3,7.26,High,1,0,0,1,2,1,0,Gold,12.0
+SHP-0591,Carrier_D,East,Air,Standard,1160.7,6.13,Low,2,1,3,3,1,0,0,Gold,30.0
+SHP-0592,Carrier_D,West,Air,Standard,1066.3,15.14,Low,0,0,0,0,2,0,1,Silver,4.0
+SHP-0593,Carrier_A,South,Truck,Cold Chain,756.1,7.21,High,1,0,2,0,1,0,0,Silver,10.0
+SHP-0594,Carrier_D,South,Ocean,Express,676.6,5.55,Low,2,1,1,0,0,1,0,Silver,14.0
+SHP-0595,Carrier_B,South,Ocean,Standard,717.0,10.05,Low,0,0,1,1,1,3,1,Silver,12.5
+SHP-0596,Carrier_D,North,Air,Standard,806.8,1.9,High,0,1,1,0,0,0,0,Silver,6.5
+SHP-0597,Carrier_C,West,Truck,Standard,1150.0,6.74,Low,1,2,2,2,0,1,0,Gold,24.5
+SHP-0598,Carrier_D,North,Air,Express,855.6,11.49,High,2,1,2,1,2,0,1,Gold,22.5
+SHP-0599,Carrier_C,South,Air,Cold Chain,931.5,6.21,High,1,0,2,1,0,1,1,Silver,13.0
+SHP-0600,Carrier_C,East,Air,Express,1042.3,2.17,Low,2,3,2,0,0,0,0,Silver,23.0
+SHP-0601,Carrier_C,North,Ocean,Cold Chain,457.6,5.51,High,3,0,0,0,0,1,1,Gold,10.5
+SHP-0602,Carrier_D,South,Ocean,Cold Chain,938.7,10.14,Low,3,0,3,2,0,1,0,Gold,25.0
+SHP-0603,Carrier_C,South,Ocean,Standard,676.4,7.44,High,0,0,0,1,1,0,1,Bronze,5.5
+SHP-0604,Carrier_A,South,Ocean,Express,121.0,4.4,Low,0,0,1,0,0,0,1,Bronze,2.5
+SHP-0605,Carrier_D,North,Ocean,Express,218.0,4.79,Critical,2,1,0,1,2,0,0,Silver,17.5
+SHP-0606,Carrier_C,North,Air,Cold Chain,495.5,5.1,Medium,0,0,1,0,0,0,0,Silver,2.5
+SHP-0607,Carrier_B,North,Air,Cold Chain,882.8,7.4,High,2,0,2,2,1,2,1,Bronze,23.0
+SHP-0608,Carrier_C,South,Air,Cold Chain,778.4,9.85,Low,4,1,0,0,3,0,1,Silver,22.0
+SHP-0609,Carrier_D,North,Air,Express,796.1,9.13,Medium,0,2,1,0,0,0,1,Gold,10.5
+SHP-0610,Carrier_D,West,Ocean,Standard,1237.7,7.64,Medium,1,0,2,2,1,0,1,Silver,17.0
+SHP-0611,Carrier_D,North,Air,Express,432.7,3.17,High,1,1,2,1,0,0,1,Bronze,15.5
+SHP-0612,Carrier_B,East,Air,Cold Chain,743.1,3.18,Critical,5,1,2,0,1,0,1,Silver,26.0
+SHP-0613,Carrier_D,East,Truck,Standard,826.1,7.83,Low,1,0,0,2,2,0,1,Gold,14.0
+SHP-0614,Carrier_B,South,Ocean,Cold Chain,565.9,3.14,Low,2,0,0,1,0,0,1,Bronze,9.5
+SHP-0615,Carrier_C,West,Air,Cold Chain,757.1,5.94,Medium,0,3,1,2,2,0,1,Silver,25.5
+SHP-0616,Carrier_C,North,Air,Cold Chain,350.0,7.26,Medium,1,1,2,1,1,1,1,Gold,19.0
+SHP-0617,Carrier_A,North,Air,Standard,1102.5,3.66,Critical,1,1,1,1,0,0,1,Bronze,13.0
+SHP-0618,Carrier_B,South,Truck,Standard,579.6,3.94,Critical,2,0,2,0,1,0,1,Silver,13.0
+SHP-0619,Carrier_A,North,Air,Standard,1257.9,6.26,Critical,0,1,2,0,0,0,1,Silver,9.0
+SHP-0620,Carrier_A,South,Ocean,Express,741.9,7.76,Low,3,0,1,3,1,1,1,Bronze,25.5
+SHP-0621,Carrier_B,South,Air,Express,1007.0,9.15,Medium,5,0,4,1,1,1,1,Gold,32.0
+SHP-0622,Carrier_B,West,Truck,Standard,736.7,8.02,High,2,1,1,0,2,0,1,Silver,16.5
+SHP-0623,Carrier_A,South,Air,Cold Chain,742.3,6.68,Medium,6,1,1,0,1,0,0,Gold,26.5
+SHP-0624,Carrier_B,West,Truck,Standard,604.0,4.63,High,0,1,0,1,0,0,1,Bronze,7.5
+SHP-0625,Carrier_C,West,Air,Cold Chain,779.8,3.82,Medium,2,0,0,0,0,0,1,Bronze,6.0
+SHP-0626,Carrier_A,West,Air,Express,829.5,5.22,Medium,4,1,2,1,0,0,0,Silver,24.5
+SHP-0627,Carrier_B,North,Truck,Standard,553.9,7.52,Critical,2,0,0,1,0,0,0,Silver,9.5
+SHP-0628,Carrier_B,West,Ocean,Standard,718.7,7.34,Medium,3,0,0,1,4,0,1,Silver,20.5
+SHP-0629,Carrier_C,East,Truck,Standard,597.5,1.25,Critical,1,0,2,0,0,0,1,Gold,8.0
+SHP-0630,Carrier_B,West,Ocean,Express,1324.9,4.54,Medium,0,2,2,0,0,0,0,Gold,13.0
+SHP-0631,Carrier_C,South,Ocean,Express,727.6,9.51,Low,1,2,1,1,1,0,1,Gold,19.0
+SHP-0632,Carrier_B,West,Truck,Cold Chain,1136.3,6.7,Medium,2,0,1,0,0,1,1,Silver,10.0
+SHP-0633,Carrier_B,East,Air,Standard,701.1,2.96,Low,4,1,3,1,0,0,0,Silver,27.0
+SHP-0634,Carrier_B,North,Truck,Express,814.8,12.39,High,0,0,2,1,0,0,1,Silver,8.5
+SHP-0635,Carrier_A,South,Truck,Express,419.7,6.43,Low,0,2,0,1,1,0,1,Gold,13.5
+SHP-0636,Carrier_C,North,Ocean,Express,638.2,7.46,High,5,0,3,2,1,1,0,Silver,33.0
+SHP-0637,Carrier_A,West,Ocean,Cold Chain,802.6,7.5,Critical,0,1,1,2,0,2,1,Gold,16.5
+SHP-0638,Carrier_B,South,Truck,Express,1146.5,5.58,Medium,2,0,3,0,0,1,0,Bronze,15.0
+SHP-0639,Carrier_D,North,Truck,Cold Chain,805.5,4.68,Low,1,4,2,2,2,1,0,Bronze,36.5
+SHP-0640,Carrier_D,East,Truck,Express,1095.9,11.8,Medium,0,0,1,1,0,1,1,Silver,7.5
+SHP-0641,Carrier_C,South,Air,Standard,910.2,9.01,High,1,0,2,3,0,0,0,Silver,18.5
+SHP-0642,Carrier_D,North,Truck,Express,1156.9,8.55,High,2,2,6,1,0,1,1,Gold,34.0
+SHP-0643,Carrier_D,West,Truck,Cold Chain,735.2,7.94,Low,1,0,1,0,0,0,0,Gold,5.5
+SHP-0644,Carrier_B,West,Air,Express,1347.6,3.99,High,0,0,0,2,0,0,1,Silver,7.0
+SHP-0645,Carrier_D,East,Truck,Standard,628.7,9.69,Medium,3,0,0,1,2,0,1,Silver,16.5
+SHP-0646,Carrier_B,East,Ocean,Express,558.4,4.39,Medium,3,1,1,0,3,0,1,Gold,21.5
+SHP-0647,Carrier_B,South,Ocean,Express,447.5,7.21,Low,1,0,0,1,0,0,1,Gold,6.5
+SHP-0648,Carrier_C,East,Ocean,Express,1332.8,2.4,Critical,2,1,0,1,0,0,1,Silver,13.5
+SHP-0649,Carrier_D,East,Truck,Cold Chain,954.9,1.4,Low,3,0,3,1,1,1,1,Gold,23.5
+SHP-0650,Carrier_D,North,Ocean,Standard,666.5,7.3,Low,2,0,0,1,0,1,1,Gold,11.0
+SHP-0651,Carrier_B,North,Ocean,Standard,1062.3,4.48,Low,1,0,1,1,1,1,0,Gold,12.5
+SHP-0652,Carrier_C,South,Truck,Standard,921.9,1.53,High,6,0,3,0,1,1,0,Bronze,29.0
+SHP-0653,Carrier_A,South,Ocean,Cold Chain,1241.5,7.85,Medium,0,0,0,1,1,0,1,Gold,5.5
+SHP-0654,Carrier_D,North,Air,Standard,363.0,11.8,Medium,3,0,1,2,0,1,1,Gold,20.0
+SHP-0655,Carrier_C,North,Ocean,Standard,683.7,9.97,Medium,1,0,2,0,2,0,1,Gold,12.0
+SHP-0656,Carrier_C,West,Air,Express,634.4,5.86,High,1,0,0,1,4,0,1,Gold,14.5
+SHP-0657,Carrier_D,South,Ocean,Express,256.6,6.52,Medium,1,0,1,1,0,1,1,Silver,10.5
+SHP-0658,Carrier_C,East,Truck,Express,1015.1,8.72,Critical,1,1,3,2,0,0,1,Gold,21.5
+SHP-0659,Carrier_A,East,Air,Standard,682.4,9.31,Medium,1,0,0,0,4,1,1,Gold,12.5
+SHP-0660,Carrier_B,East,Truck,Express,934.9,5.64,Low,1,1,3,1,0,0,0,Bronze,18.0
+SHP-0661,Carrier_A,East,Truck,Express,1339.9,6.59,Critical,2,0,1,2,0,0,0,Silver,15.5
+SHP-0662,Carrier_C,South,Truck,Express,661.7,7.25,High,1,1,2,1,0,0,1,Gold,15.5
+SHP-0663,Carrier_A,West,Air,Express,644.7,7.88,Medium,0,0,1,1,1,0,1,Gold,8.0
+SHP-0664,Carrier_A,South,Truck,Cold Chain,779.7,6.17,High,1,1,0,1,2,1,1,Silver,16.0
+SHP-0665,Carrier_C,West,Ocean,Standard,996.8,6.2,High,3,0,0,0,2,2,0,Silver,16.0
+SHP-0666,Carrier_C,South,Air,Cold Chain,608.3,9.95,Medium,1,0,2,0,0,0,1,Bronze,8.0
+SHP-0667,Carrier_C,North,Ocean,Standard,592.3,9.52,High,0,0,0,0,0,0,1,Gold,0.0
+SHP-0668,Carrier_D,West,Ocean,Cold Chain,1014.3,7.69,High,3,1,0,1,0,1,1,Silver,18.0
+SHP-0669,Carrier_D,North,Truck,Express,844.7,10.8,Medium,0,0,0,0,1,0,1,Gold,2.0
+SHP-0670,Carrier_A,West,Truck,Standard,238.8,5.53,High,1,0,1,0,2,0,0,Gold,9.5
+SHP-0671,Carrier_D,North,Air,Cold Chain,443.7,10.56,Medium,2,1,0,0,1,0,1,Silver,12.0
+SHP-0672,Carrier_C,North,Air,Standard,1125.3,7.86,Low,0,0,0,0,0,1,1,Silver,1.5
+SHP-0673,Carrier_C,East,Truck,Cold Chain,850.5,14.68,Critical,1,0,2,0,4,0,1,Gold,16.0
+SHP-0674,Carrier_A,West,Ocean,Express,559.5,3.52,High,0,1,2,1,0,0,1,Gold,12.5
+SHP-0675,Carrier_C,South,Air,Express,707.4,4.78,High,2,1,2,1,0,0,1,Silver,18.5
+SHP-0676,Carrier_C,North,Ocean,Cold Chain,753.3,7.55,High,1,0,3,2,1,0,0,Gold,19.5
+SHP-0677,Carrier_C,North,Truck,Express,933.9,7.49,High,2,0,2,0,0,3,1,Gold,15.5
+SHP-0678,Carrier_A,West,Ocean,Cold Chain,410.4,11.38,Medium,0,0,0,0,0,0,1,Gold,0.0
+SHP-0679,Carrier_C,East,Truck,Cold Chain,539.8,4.83,Critical,2,0,0,1,1,0,1,Gold,11.5
+SHP-0680,Carrier_D,North,Air,Cold Chain,818.2,8.76,High,4,1,2,1,0,0,0,Silver,24.5
+SHP-0681,Carrier_C,South,Air,Standard,725.0,9.41,High,1,1,2,0,0,1,1,Gold,13.5
+SHP-0682,Carrier_A,South,Ocean,Cold Chain,893.0,8.26,Medium,2,1,0,0,1,0,1,Silver,12.0
+SHP-0683,Carrier_D,North,Truck,Express,442.6,4.1,Medium,4,0,0,0,0,0,1,Silver,12.0
+SHP-0684,Carrier_D,West,Truck,Standard,839.3,10.02,Low,0,0,1,0,0,1,1,Gold,4.0
+SHP-0685,Carrier_A,East,Air,Express,1022.9,9.57,Medium,1,4,0,0,2,1,1,Silver,24.5
+SHP-0686,Carrier_D,North,Air,Cold Chain,871.7,8.0,Low,2,0,2,1,1,0,1,Gold,16.5
+SHP-0687,Carrier_B,East,Truck,Cold Chain,784.8,7.01,High,1,0,3,2,0,2,1,Silver,20.5
+SHP-0688,Carrier_C,South,Truck,Cold Chain,726.0,7.07,Critical,0,1,0,1,0,0,1,Silver,7.5
+SHP-0689,Carrier_B,North,Truck,Cold Chain,541.3,6.3,Medium,4,0,2,3,1,0,0,Silver,29.5
+SHP-0690,Carrier_D,South,Air,Express,732.0,8.1,Medium,0,1,0,0,0,1,1,Gold,5.5
+SHP-0691,Carrier_D,North,Air,Express,1064.9,6.58,High,0,1,2,1,1,0,0,Silver,14.5
+SHP-0692,Carrier_D,North,Air,Cold Chain,720.2,4.38,Low,0,2,1,1,1,0,1,Silver,16.0
+SHP-0693,Carrier_D,West,Ocean,Standard,527.5,3.88,Critical,3,0,0,0,0,0,1,Gold,9.0
+SHP-0694,Carrier_D,East,Truck,Express,626.9,4.62,Medium,1,0,0,2,0,1,1,Gold,11.5
+SHP-0695,Carrier_A,North,Ocean,Cold Chain,800.2,7.06,Low,2,0,1,2,3,0,0,Gold,21.5
+SHP-0696,Carrier_B,West,Ocean,Cold Chain,656.6,6.43,Low,1,0,1,1,1,0,1,Gold,11.0
+SHP-0697,Carrier_C,East,Truck,Standard,871.3,7.04,Critical,4,1,3,1,1,0,0,Gold,29.0
+SHP-0698,Carrier_C,West,Truck,Cold Chain,880.7,7.75,Medium,2,0,4,2,1,0,0,Bronze,25.0
+SHP-0699,Carrier_A,East,Truck,Express,972.2,4.93,High,2,0,1,1,0,0,1,Bronze,12.0
+SHP-0700,Carrier_A,South,Truck,Express,1105.9,10.16,Low,2,1,0,0,1,0,1,Gold,12.0
+SHP-0701,Carrier_C,East,Air,Express,999.0,5.83,Low,1,0,1,0,0,0,1,Bronze,5.5
+SHP-0702,Carrier_C,East,Truck,Standard,516.4,5.42,Critical,1,0,1,2,1,0,1,Silver,14.5
+SHP-0703,Carrier_A,East,Truck,Express,524.1,7.71,Low,0,0,1,0,1,0,1,Gold,4.5
+SHP-0704,Carrier_A,North,Air,Express,731.1,1.91,Low,2,1,3,0,1,0,1,Bronze,19.5
+SHP-0705,Carrier_A,South,Ocean,Cold Chain,637.2,4.52,High,0,1,1,0,1,0,1,Silver,8.5
+SHP-0706,Carrier_C,North,Truck,Cold Chain,465.4,8.95,Critical,2,1,1,1,0,1,0,Silver,17.5
+SHP-0707,Carrier_A,South,Ocean,Cold Chain,639.6,2.16,Medium,1,1,2,0,2,0,1,Gold,16.0
+SHP-0708,Carrier_C,North,Air,Cold Chain,631.4,9.29,Low,0,0,0,0,0,1,1,Gold,1.5
+SHP-0709,Carrier_B,North,Ocean,Cold Chain,582.0,10.28,Critical,2,1,1,1,1,0,1,Bronze,18.0
+SHP-0710,Carrier_B,West,Truck,Standard,671.1,5.58,High,1,0,1,0,1,0,1,Gold,7.5
+SHP-0711,Carrier_C,North,Air,Standard,1044.6,7.23,Critical,3,0,2,1,0,1,1,Gold,19.0
+SHP-0712,Carrier_C,West,Ocean,Cold Chain,799.8,9.3,High,2,0,0,0,2,1,1,Gold,11.5
+SHP-0713,Carrier_C,North,Truck,Standard,1368.0,5.33,High,3,0,5,2,1,1,0,Gold,32.0
+SHP-0714,Carrier_D,West,Ocean,Express,792.6,8.67,Medium,1,0,0,1,0,1,1,Gold,8.0
+SHP-0715,Carrier_D,South,Air,Cold Chain,677.5,4.82,Medium,1,0,0,1,1,1,1,Bronze,10.0
+SHP-0716,Carrier_D,East,Air,Express,751.0,5.31,High,3,0,4,4,1,0,0,Gold,35.0
+SHP-0717,Carrier_C,South,Air,Cold Chain,814.1,4.5,High,2,1,2,0,0,1,1,Bronze,16.5
+SHP-0718,Carrier_B,South,Air,Standard,858.8,7.36,Critical,1,1,1,0,0,1,1,Silver,11.0
+SHP-0719,Carrier_A,South,Truck,Cold Chain,1269.2,9.39,High,2,0,3,0,2,0,1,Silver,17.5
+SHP-0720,Carrier_C,East,Ocean,Express,538.7,6.04,Medium,1,0,1,1,0,0,1,Gold,9.0
+SHP-0721,Carrier_A,South,Air,Standard,964.8,3.32,Medium,1,2,1,1,1,0,1,Gold,19.0
+SHP-0722,Carrier_D,East,Ocean,Standard,801.9,3.79,High,1,1,2,0,1,0,1,Bronze,14.0
+SHP-0723,Carrier_D,West,Air,Standard,357.2,7.49,Medium,1,1,1,0,1,0,1,Silver,11.5
+SHP-0724,Carrier_A,South,Air,Express,942.7,11.11,High,3,1,0,0,0,2,1,Gold,16.0
+SHP-0725,Carrier_D,South,Air,Cold Chain,1066.9,7.48,High,1,0,2,1,0,0,1,Bronze,11.5
+SHP-0726,Carrier_A,North,Ocean,Standard,535.7,5.53,Low,1,0,1,1,0,0,1,Silver,9.0
+SHP-0727,Carrier_C,South,Ocean,Cold Chain,747.8,8.42,High,1,0,1,1,0,1,1,Gold,10.5
+SHP-0728,Carrier_A,North,Ocean,Standard,318.7,5.9,High,2,1,4,1,1,0,1,Silver,25.5
+SHP-0729,Carrier_B,North,Air,Express,435.3,5.55,Critical,0,0,3,2,0,1,1,Silver,16.0
+SHP-0730,Carrier_C,West,Ocean,Cold Chain,1012.0,4.1,Medium,2,1,1,0,0,1,1,Silver,14.0
+SHP-0731,Carrier_C,North,Air,Express,633.4,10.02,High,0,1,3,1,0,0,1,Gold,15.0
+SHP-0732,Carrier_B,South,Air,Express,472.8,1.0,Medium,0,0,0,0,1,0,1,Gold,2.0
+SHP-0733,Carrier_D,West,Ocean,Cold Chain,807.4,8.49,High,2,0,3,1,2,1,1,Gold,22.5
+SHP-0734,Carrier_D,West,Truck,Cold Chain,619.4,5.34,Low,0,0,2,0,1,1,1,Gold,8.5
+SHP-0735,Carrier_A,North,Ocean,Cold Chain,632.3,5.47,Critical,1,0,0,2,0,1,1,Gold,11.5
+SHP-0736,Carrier_C,North,Truck,Standard,934.8,10.73,Critical,1,0,1,0,2,0,1,Silver,9.5
+SHP-0737,Carrier_C,South,Air,Cold Chain,459.6,4.71,High,4,0,2,1,0,1,1,Silver,22.0
+SHP-0738,Carrier_B,East,Air,Express,523.7,4.8,High,1,0,3,1,0,1,0,Gold,15.5
+SHP-0739,Carrier_C,West,Air,Cold Chain,788.5,6.17,Low,2,1,4,0,1,1,0,Silver,23.5
+SHP-0740,Carrier_D,North,Air,Standard,992.4,7.53,High,2,0,4,4,0,1,0,Gold,31.5
+SHP-0741,Carrier_D,North,Air,Express,1059.5,5.4,Medium,0,0,0,0,2,0,1,Gold,4.0
+SHP-0742,Carrier_D,South,Air,Standard,583.7,2.57,High,4,4,0,0,2,0,1,Silver,32.0
+SHP-0743,Carrier_C,West,Air,Standard,984.3,4.34,Low,0,1,1,0,1,0,0,Bronze,8.5
+SHP-0744,Carrier_B,North,Air,Express,554.0,9.7,High,2,1,3,2,1,0,0,Gold,26.5
+SHP-0745,Carrier_D,South,Ocean,Standard,1206.6,6.69,Medium,0,0,1,1,3,1,0,Bronze,13.5
+SHP-0746,Carrier_B,North,Air,Standard,466.6,7.63,High,2,3,2,3,1,0,0,Bronze,35.5
+SHP-0747,Carrier_C,North,Air,Express,1082.1,5.85,High,4,0,1,0,0,0,1,Silver,14.5
+SHP-0748,Carrier_B,West,Ocean,Express,585.9,4.85,Medium,4,0,3,2,0,2,0,Bronze,29.5
+SHP-0749,Carrier_B,North,Ocean,Cold Chain,1253.3,10.69,Medium,2,0,4,2,1,1,0,Gold,26.5
+SHP-0750,Carrier_A,South,Truck,Standard,897.8,6.03,High,5,0,1,2,1,1,1,Gold,28.0
+SHP-0751,Carrier_D,West,Ocean,Standard,496.0,5.39,High,3,0,1,0,1,0,0,Silver,13.5
+SHP-0752,Carrier_A,East,Truck,Standard,619.4,9.24,Low,3,1,1,2,1,0,1,Gold,24.5
+SHP-0753,Carrier_A,North,Truck,Standard,945.3,4.69,Medium,0,2,1,3,0,1,1,Gold,22.5
+SHP-0754,Carrier_D,South,Ocean,Standard,1013.2,5.01,Medium,1,0,1,1,2,0,0,Gold,13.0
+SHP-0755,Carrier_C,West,Truck,Standard,732.3,6.53,High,1,0,2,1,0,0,0,Gold,11.5
+SHP-0756,Carrier_B,South,Ocean,Cold Chain,761.2,6.5,High,1,0,2,0,2,1,1,Gold,13.5
+SHP-0757,Carrier_C,East,Ocean,Cold Chain,939.6,7.15,Low,0,1,1,0,1,0,0,Gold,8.5
+SHP-0758,Carrier_B,East,Ocean,Express,782.9,11.73,High,1,0,1,2,1,2,0,Bronze,17.5
+SHP-0759,Carrier_A,East,Ocean,Cold Chain,426.6,7.34,High,0,3,1,0,0,0,1,Gold,14.5
+SHP-0760,Carrier_C,North,Ocean,Cold Chain,546.8,1.0,High,1,1,1,0,1,0,1,Silver,11.5
+SHP-0761,Carrier_A,West,Truck,Express,808.8,7.32,Low,1,0,1,1,1,0,0,Gold,11.0
+SHP-0762,Carrier_C,West,Ocean,Cold Chain,1053.9,6.59,Medium,2,2,1,0,0,0,1,Gold,16.5
+SHP-0763,Carrier_D,North,Truck,Standard,1154.0,6.61,Medium,1,0,0,0,2,0,0,Bronze,7.0
+SHP-0764,Carrier_D,West,Truck,Cold Chain,944.9,7.11,Low,2,0,0,1,1,0,1,Gold,11.5
+SHP-0765,Carrier_B,West,Truck,Standard,821.8,6.43,Medium,4,2,1,0,1,0,1,Gold,24.5
+SHP-0766,Carrier_D,East,Air,Cold Chain,937.2,6.37,Low,2,0,2,0,1,0,1,Silver,13.0
+SHP-0767,Carrier_C,South,Ocean,Express,583.3,8.03,Low,1,1,0,1,3,0,1,Gold,16.5
+SHP-0768,Carrier_B,South,Truck,Express,711.7,5.14,High,1,0,0,0,0,1,1,Gold,4.5
+SHP-0769,Carrier_A,West,Ocean,Cold Chain,544.0,4.13,Medium,1,2,0,0,0,1,1,Bronze,12.5
+SHP-0770,Carrier_B,North,Air,Standard,437.8,14.06,High,1,1,2,0,1,0,1,Gold,14.0
+SHP-0771,Carrier_C,West,Air,Standard,833.4,4.71,Low,3,1,0,2,1,0,1,Silver,22.0
+SHP-0772,Carrier_D,West,Ocean,Express,796.4,6.75,High,0,1,1,1,2,0,1,Gold,14.0
+SHP-0773,Carrier_A,East,Air,Express,921.9,2.76,Medium,1,0,2,1,3,1,1,Gold,19.0
+SHP-0774,Carrier_C,South,Air,Cold Chain,886.5,6.79,High,1,1,2,0,1,0,0,Gold,14.0
+SHP-0775,Carrier_D,East,Ocean,Express,810.7,4.17,High,6,0,3,3,0,0,1,Silver,36.0
+SHP-0776,Carrier_D,North,Air,Standard,889.2,5.39,Medium,4,0,3,2,2,0,1,Gold,30.5
+SHP-0777,Carrier_B,West,Air,Express,739.3,9.11,High,6,2,1,1,0,0,1,Bronze,32.0
+SHP-0778,Carrier_A,South,Truck,Express,853.2,7.68,Medium,1,1,0,2,1,0,1,Silver,16.0
+SHP-0779,Carrier_B,North,Truck,Express,568.5,7.92,High,1,0,1,0,1,0,1,Silver,7.5
+SHP-0780,Carrier_D,West,Truck,Cold Chain,842.4,2.07,Low,2,1,5,2,0,0,0,Gold,29.5
+SHP-0781,Carrier_D,East,Truck,Cold Chain,917.1,11.09,Medium,3,1,2,1,0,1,1,Silver,23.0
+SHP-0782,Carrier_C,East,Truck,Express,582.6,3.52,Low,0,0,0,1,0,1,1,Silver,5.0
+SHP-0783,Carrier_A,North,Ocean,Standard,763.0,10.32,Critical,4,1,2,0,0,0,1,Gold,21.0
+SHP-0784,Carrier_A,West,Truck,Standard,594.1,9.05,Medium,4,0,0,1,1,0,1,Bronze,17.5
+SHP-0785,Carrier_B,East,Air,Standard,618.4,7.94,High,0,0,0,1,1,0,0,Gold,5.5
+SHP-0786,Carrier_C,West,Ocean,Cold Chain,468.8,4.36,Medium,1,0,0,1,1,0,1,Bronze,8.5
+SHP-0787,Carrier_A,West,Ocean,Express,1066.4,6.88,Medium,2,0,0,1,1,2,1,Bronze,14.5
+SHP-0788,Carrier_C,North,Air,Express,1016.4,5.32,Medium,0,1,1,0,1,0,0,Gold,8.5
+SHP-0789,Carrier_C,North,Truck,Standard,884.4,6.57,Critical,2,1,0,4,0,2,1,Gold,27.0
+SHP-0790,Carrier_A,West,Ocean,Standard,1243.0,5.88,High,1,0,2,2,1,0,1,Silver,17.0
+SHP-0791,Carrier_A,East,Truck,Express,702.7,1.4,Low,3,0,2,3,0,1,1,Silver,26.0
+SHP-0792,Carrier_B,South,Ocean,Cold Chain,1507.9,9.3,High,1,2,0,0,1,1,1,Silver,14.5
+SHP-0793,Carrier_C,South,Ocean,Express,693.1,6.3,Medium,1,0,3,2,0,0,0,Gold,17.5
+SHP-0794,Carrier_D,East,Truck,Express,813.8,5.29,Low,0,2,2,1,0,0,1,Silver,16.5
+SHP-0795,Carrier_B,West,Ocean,Standard,650.6,5.1,High,2,0,1,2,0,0,1,Bronze,15.5
+SHP-0796,Carrier_B,North,Truck,Standard,843.1,7.4,Low,1,1,4,4,1,0,0,Bronze,33.0
+SHP-0797,Carrier_D,East,Truck,Express,958.9,4.27,Medium,1,1,2,1,0,0,1,Gold,15.5
+SHP-0798,Carrier_B,West,Ocean,Express,721.5,1.0,High,2,1,1,1,0,0,1,Bronze,16.0
+SHP-0799,Carrier_B,South,Ocean,Express,1194.2,7.52,Medium,1,1,1,1,2,0,1,Gold,17.0
+SHP-0800,Carrier_B,South,Truck,Standard,809.8,7.8,Critical,4,0,1,1,1,1,1,Silver,21.5
+SHP-0801,Carrier_A,West,Ocean,Standard,817.6,6.0,High,5,1,1,0,0,0,1,Gold,21.5
+SHP-0802,Carrier_B,North,Ocean,Express,522.8,3.63,High,1,0,2,0,2,0,1,Silver,12.0
+SHP-0803,Carrier_C,South,Ocean,Standard,854.6,6.72,High,2,1,0,1,2,1,1,Gold,19.0
+SHP-0804,Carrier_D,South,Truck,Cold Chain,716.5,2.84,Critical,3,1,1,1,1,0,1,Gold,21.0
+SHP-0805,Carrier_C,West,Truck,Express,597.9,3.93,Medium,0,2,2,1,1,0,1,Gold,18.5
+SHP-0806,Carrier_D,North,Ocean,Cold Chain,555.9,4.62,High,1,0,2,1,1,0,1,Bronze,13.5
+SHP-0807,Carrier_C,South,Ocean,Express,1417.9,8.61,High,2,1,0,1,1,1,1,Silver,17.0
+SHP-0808,Carrier_A,North,Ocean,Express,684.1,5.59,Critical,1,0,1,1,0,1,1,Silver,10.5
+SHP-0809,Carrier_B,West,Air,Express,385.8,5.38,Low,2,1,0,2,1,2,1,Silver,22.0
+SHP-0810,Carrier_D,East,Truck,Express,575.4,11.39,High,3,0,1,1,0,0,1,Gold,15.0
+SHP-0811,Carrier_A,South,Ocean,Express,737.1,7.38,High,1,1,1,1,0,0,0,Gold,13.0
+SHP-0812,Carrier_D,South,Truck,Standard,886.7,7.35,Medium,1,0,1,1,1,0,0,Gold,11.0
+SHP-0813,Carrier_C,North,Air,Standard,888.7,5.58,Critical,2,0,1,1,0,1,1,Gold,13.5
+SHP-0814,Carrier_B,West,Ocean,Cold Chain,919.2,5.01,Medium,1,0,2,0,2,0,0,Bronze,12.0
+SHP-0815,Carrier_D,East,Air,Standard,588.8,1.03,Low,1,2,2,1,0,1,1,Gold,21.0
+SHP-0816,Carrier_D,South,Truck,Standard,835.1,8.92,High,2,0,1,0,3,0,1,Silver,14.5
+SHP-0817,Carrier_A,South,Truck,Standard,531.0,7.62,Medium,1,0,3,1,0,1,0,Silver,15.5
+SHP-0818,Carrier_A,East,Air,Express,595.1,6.05,Low,2,0,1,0,1,0,1,Bronze,10.5
+SHP-0819,Carrier_C,East,Ocean,Cold Chain,520.6,6.16,Low,0,1,1,0,0,0,1,Gold,6.5
+SHP-0820,Carrier_D,South,Air,Express,452.9,8.34,Low,0,0,0,2,0,0,1,Bronze,7.0
+SHP-0821,Carrier_A,South,Ocean,Cold Chain,1016.1,2.61,High,3,2,2,1,0,0,1,Silver,25.5
+SHP-0822,Carrier_C,East,Truck,Cold Chain,922.2,5.03,Critical,1,1,3,1,1,0,0,Silver,20.0
+SHP-0823,Carrier_A,East,Ocean,Cold Chain,994.2,3.66,High,2,0,0,0,2,0,0,Silver,10.0
+SHP-0824,Carrier_C,East,Ocean,Standard,759.8,10.93,Low,2,0,0,0,0,1,1,Gold,7.5
+SHP-0825,Carrier_C,North,Air,Express,944.2,8.69,High,0,2,1,1,0,0,1,Silver,14.0
+SHP-0826,Carrier_A,South,Ocean,Cold Chain,309.7,1.0,Critical,2,1,3,1,0,0,1,Silver,21.0
+SHP-0827,Carrier_C,East,Air,Express,965.8,2.72,High,2,0,2,2,2,0,1,Silver,22.0
+SHP-0828,Carrier_D,West,Air,Standard,794.3,6.17,Medium,2,0,0,0,1,0,1,Bronze,8.0
+SHP-0829,Carrier_D,East,Ocean,Cold Chain,906.8,5.32,Low,2,0,0,0,1,0,1,Silver,8.0
+SHP-0830,Carrier_A,South,Ocean,Cold Chain,845.0,3.19,Critical,2,3,2,1,0,0,0,Gold,26.5
+SHP-0831,Carrier_A,East,Ocean,Cold Chain,503.2,11.36,Critical,4,0,0,1,0,1,0,Gold,17.0
+SHP-0832,Carrier_A,North,Truck,Express,375.5,7.28,Low,2,1,1,1,0,1,0,Bronze,17.5
+SHP-0833,Carrier_B,North,Ocean,Cold Chain,572.0,7.69,High,2,0,0,0,1,1,1,Silver,9.5
+SHP-0834,Carrier_A,East,Truck,Express,891.2,4.77,Low,1,1,0,0,0,2,1,Bronze,10.0
+SHP-0835,Carrier_D,West,Air,Standard,922.5,8.31,Low,1,1,4,1,0,0,1,Gold,20.5
+SHP-0836,Carrier_D,West,Air,Cold Chain,408.0,5.55,High,1,0,1,2,1,3,0,Silver,19.0
+SHP-0837,Carrier_D,East,Air,Standard,504.7,5.79,High,0,0,1,1,1,0,0,Bronze,8.0
+SHP-0838,Carrier_A,North,Ocean,Cold Chain,569.2,8.03,Medium,1,0,0,0,0,0,1,Silver,3.0
+SHP-0839,Carrier_A,West,Ocean,Standard,660.7,2.43,Critical,2,0,0,2,2,1,1,Gold,18.5
+SHP-0840,Carrier_D,South,Truck,Express,409.5,10.49,High,4,0,0,1,0,0,1,Gold,15.5
+SHP-0841,Carrier_B,South,Truck,Express,394.5,6.96,Low,1,1,0,2,0,0,1,Bronze,14.0
+SHP-0842,Carrier_C,West,Truck,Standard,544.5,9.7,High,1,0,1,2,1,0,1,Silver,14.5
+SHP-0843,Carrier_D,East,Ocean,Cold Chain,771.6,3.81,High,1,0,2,0,2,1,1,Gold,13.5
+SHP-0844,Carrier_A,East,Air,Standard,454.9,4.19,High,2,1,2,1,0,1,1,Silver,20.0
+SHP-0845,Carrier_A,South,Ocean,Cold Chain,721.0,3.6,Critical,1,0,0,0,0,0,0,Gold,3.0
+SHP-0846,Carrier_A,West,Ocean,Standard,1014.6,7.13,High,3,0,1,0,0,0,1,Gold,11.5
+SHP-0847,Carrier_A,South,Ocean,Express,424.6,6.66,Low,1,0,1,1,2,0,1,Gold,13.0
+SHP-0848,Carrier_A,East,Truck,Express,698.4,5.34,Low,3,1,3,1,1,0,0,Gold,26.0
+SHP-0849,Carrier_D,West,Truck,Standard,1006.2,3.96,High,1,0,0,0,1,1,1,Silver,6.5
+SHP-0850,Carrier_C,East,Air,Cold Chain,645.4,3.33,Critical,2,1,2,1,0,0,1,Gold,18.5
+SHP-0851,Carrier_D,North,Air,Cold Chain,606.6,6.38,Low,2,1,0,1,1,1,1,Silver,17.0
+SHP-0852,Carrier_D,South,Ocean,Express,1040.9,5.34,Low,2,1,2,1,0,0,1,Gold,18.5
+SHP-0853,Carrier_D,South,Truck,Standard,673.4,4.79,High,2,0,1,1,1,0,0,Gold,14.0
+SHP-0854,Carrier_A,West,Air,Cold Chain,1026.1,10.37,Low,4,0,0,1,0,0,1,Gold,15.5
+SHP-0855,Carrier_B,East,Truck,Standard,857.2,6.29,Low,1,1,2,0,1,0,0,Gold,14.0
+SHP-0856,Carrier_D,South,Truck,Express,664.3,9.68,Critical,0,2,1,1,0,0,1,Silver,14.0
+SHP-0857,Carrier_A,East,Truck,Standard,869.9,5.17,High,3,0,2,3,0,0,0,Bronze,24.5
+SHP-0858,Carrier_A,East,Truck,Express,830.1,7.11,Critical,3,0,3,5,0,0,0,Silver,34.0
+SHP-0859,Carrier_C,South,Air,Express,1005.2,6.36,High,1,2,0,0,0,0,1,Silver,11.0
+SHP-0860,Carrier_D,South,Air,Standard,612.9,2.26,Medium,4,0,1,1,0,0,1,Bronze,18.0
+SHP-0861,Carrier_D,West,Air,Express,760.3,10.07,Critical,1,1,2,0,1,0,1,Silver,14.0
+SHP-0862,Carrier_D,East,Air,Standard,734.6,6.16,Medium,0,0,1,0,2,0,1,Silver,6.5
+SHP-0863,Carrier_A,North,Ocean,Standard,926.0,8.37,Medium,2,0,0,0,4,0,1,Silver,14.0
+SHP-0864,Carrier_D,East,Ocean,Standard,493.7,4.62,Critical,2,0,1,0,0,0,1,Gold,8.5
+SHP-0865,Carrier_D,East,Air,Standard,1004.2,6.09,High,2,2,3,0,1,1,0,Gold,25.0
+SHP-0866,Carrier_C,East,Air,Express,866.6,4.33,Critical,0,0,0,1,2,0,1,Silver,7.5
+SHP-0867,Carrier_D,East,Ocean,Cold Chain,420.8,9.59,Low,1,1,2,1,0,0,1,Silver,15.5
+SHP-0868,Carrier_D,West,Ocean,Cold Chain,1052.1,7.28,Critical,2,0,1,0,1,0,1,Gold,10.5
+SHP-0869,Carrier_B,South,Truck,Cold Chain,1308.5,7.42,High,0,0,0,1,2,0,1,Bronze,7.5
+SHP-0870,Carrier_A,South,Ocean,Cold Chain,1000.5,9.9,High,3,2,2,0,0,0,1,Gold,22.0
+SHP-0871,Carrier_B,North,Truck,Standard,1106.7,9.39,Critical,3,0,2,2,1,0,1,Silver,23.0
+SHP-0872,Carrier_A,East,Air,Cold Chain,771.3,8.41,Medium,0,1,0,1,1,1,1,Bronze,11.0
+SHP-0873,Carrier_A,South,Air,Standard,334.6,2.95,High,4,1,3,1,0,0,0,Gold,27.0
+SHP-0874,Carrier_A,South,Air,Express,289.0,4.76,High,0,0,3,2,0,0,0,Bronze,14.5
+SHP-0875,Carrier_C,East,Truck,Cold Chain,813.8,3.99,High,0,0,0,1,0,0,1,Silver,3.5
+SHP-0876,Carrier_C,South,Ocean,Express,602.0,8.32,Critical,1,0,1,0,0,0,1,Silver,5.5
+SHP-0877,Carrier_C,South,Truck,Cold Chain,521.4,6.93,High,2,0,3,2,1,1,0,Bronze,24.0
+SHP-0878,Carrier_C,South,Truck,Standard,734.3,3.02,Low,3,1,1,1,2,0,0,Silver,23.0
+SHP-0879,Carrier_C,South,Ocean,Cold Chain,903.9,6.03,Low,1,1,3,1,1,1,0,Gold,21.5
+SHP-0880,Carrier_C,North,Ocean,Standard,386.8,2.76,Critical,2,0,3,1,1,0,1,Silver,19.0
+SHP-0881,Carrier_A,West,Truck,Standard,637.8,6.37,Critical,0,0,0,1,0,0,1,Gold,3.5
+SHP-0882,Carrier_D,North,Ocean,Express,1127.5,2.36,Critical,5,0,1,0,1,1,1,Gold,21.0
+SHP-0883,Carrier_B,South,Ocean,Cold Chain,481.2,7.82,Low,2,0,1,0,0,1,1,Gold,10.0
+SHP-0884,Carrier_A,East,Truck,Express,967.4,7.44,Medium,0,2,0,1,1,0,1,Gold,13.5
+SHP-0885,Carrier_D,North,Air,Standard,628.8,11.27,High,2,1,2,2,0,0,0,Silver,22.0
+SHP-0886,Carrier_C,East,Air,Standard,886.4,8.62,High,3,0,5,1,0,2,0,Bronze,28.0
+SHP-0887,Carrier_A,East,Truck,Standard,1024.3,5.44,Low,2,1,1,1,0,0,1,Bronze,16.0
+SHP-0888,Carrier_A,East,Truck,Express,935.3,8.55,High,2,0,1,2,1,1,1,Gold,19.0
+SHP-0889,Carrier_A,South,Truck,Standard,977.3,3.01,Low,1,2,2,1,0,1,1,Silver,21.0
+SHP-0890,Carrier_B,North,Truck,Standard,462.1,4.09,Medium,0,0,2,2,2,1,1,Silver,17.5
+SHP-0891,Carrier_A,West,Air,Express,1028.4,7.33,Medium,2,1,0,4,1,1,0,Gold,27.5
+SHP-0892,Carrier_C,South,Air,Express,536.8,1.1,Low,1,2,1,1,2,1,1,Silver,22.5
+SHP-0893,Carrier_C,West,Truck,Cold Chain,814.9,6.41,Low,2,1,2,1,0,0,1,Gold,18.5
+SHP-0894,Carrier_D,North,Truck,Express,814.6,3.95,Critical,2,1,0,1,0,0,1,Bronze,13.5
+SHP-0895,Carrier_C,North,Truck,Express,871.3,6.75,High,1,0,2,0,1,1,1,Gold,11.5
+SHP-0896,Carrier_C,West,Ocean,Standard,834.2,3.81,Critical,2,0,0,0,1,0,1,Silver,8.0
+SHP-0897,Carrier_C,West,Truck,Express,539.0,7.56,Medium,0,1,3,1,1,2,0,Bronze,20.0
+SHP-0898,Carrier_A,West,Ocean,Standard,412.5,6.55,Medium,2,1,3,0,0,1,1,Silver,19.0
+SHP-0899,Carrier_A,West,Air,Express,968.1,10.0,Medium,2,0,2,0,0,0,1,Gold,11.0
+SHP-0900,Carrier_C,North,Ocean,Standard,796.5,6.52,High,3,0,0,0,1,0,1,Gold,11.0
+SHP-0901,Carrier_A,West,Air,Cold Chain,1037.3,4.58,Medium,1,1,1,2,0,1,0,Bronze,18.0
+SHP-0902,Carrier_A,East,Truck,Standard,738.8,5.88,High,3,1,2,0,3,0,1,Gold,24.0
+SHP-0903,Carrier_A,North,Air,Cold Chain,398.7,3.14,High,1,0,0,0,0,1,1,Gold,4.5
+SHP-0904,Carrier_D,North,Truck,Cold Chain,991.5,7.52,Critical,2,1,4,3,1,1,0,Bronze,34.0
+SHP-0905,Carrier_B,West,Truck,Express,657.4,7.97,Medium,2,0,2,0,2,1,0,Silver,16.5
+SHP-0906,Carrier_C,South,Truck,Standard,835.5,12.67,High,3,1,1,0,0,1,0,Silver,17.0
+SHP-0907,Carrier_B,West,Truck,Express,588.1,4.95,Medium,2,3,4,2,2,0,0,Gold,39.0
+SHP-0908,Carrier_A,North,Truck,Standard,1161.1,5.83,Low,1,0,2,0,2,0,1,Gold,12.0
+SHP-0909,Carrier_B,South,Truck,Express,530.9,5.06,High,1,1,2,1,1,1,0,Silver,19.0
+SHP-0910,Carrier_A,South,Ocean,Cold Chain,665.6,7.03,High,3,2,3,3,2,1,0,Gold,40.5
+SHP-0911,Carrier_D,South,Air,Express,776.9,7.45,High,2,0,1,1,2,1,1,Gold,17.5
+SHP-0912,Carrier_A,East,Air,Standard,477.0,6.37,Low,2,1,1,4,2,0,1,Gold,30.5
+SHP-0913,Carrier_B,West,Ocean,Express,832.6,9.22,Critical,4,0,5,3,0,0,0,Silver,35.0
+SHP-0914,Carrier_D,West,Truck,Cold Chain,1153.0,4.96,Critical,0,1,1,0,0,0,1,Gold,6.5
+SHP-0915,Carrier_C,East,Air,Cold Chain,627.4,8.97,Medium,0,0,1,1,1,0,1,Bronze,8.0
+SHP-0916,Carrier_B,North,Ocean,Cold Chain,848.8,7.85,Critical,3,1,2,1,0,1,1,Gold,23.0
+SHP-0917,Carrier_C,West,Air,Standard,62.6,6.47,Medium,3,0,1,1,3,2,0,Gold,24.0
+SHP-0918,Carrier_D,East,Air,Express,740.3,5.71,High,1,2,1,1,0,0,1,Bronze,17.0
+SHP-0919,Carrier_B,East,Truck,Cold Chain,671.7,12.57,Critical,0,0,2,1,0,1,1,Bronze,10.0
+SHP-0920,Carrier_C,East,Truck,Standard,545.4,4.46,High,2,1,2,0,1,0,1,Silver,17.0
+SHP-0921,Carrier_D,West,Truck,Cold Chain,1020.4,7.24,High,2,1,0,0,0,2,1,Bronze,13.0
+SHP-0922,Carrier_C,West,Truck,Cold Chain,668.4,4.62,Medium,2,0,0,0,1,0,1,Gold,8.0
+SHP-0923,Carrier_B,East,Ocean,Standard,705.6,10.96,High,2,1,2,1,1,0,0,Gold,20.5
+SHP-0924,Carrier_A,East,Air,Cold Chain,655.7,8.72,High,2,1,0,0,1,1,1,Gold,13.5
+SHP-0925,Carrier_A,East,Air,Cold Chain,270.8,4.8,Low,3,1,2,1,0,1,0,Gold,23.0
+SHP-0926,Carrier_D,South,Ocean,Standard,467.0,7.78,Low,2,2,0,0,2,0,0,Silver,18.0
+SHP-0927,Carrier_C,South,Truck,Express,990.3,7.14,High,1,0,0,1,0,0,1,Silver,6.5
+SHP-0928,Carrier_B,East,Truck,Express,222.5,5.21,High,2,2,0,2,1,0,1,Gold,23.0
+SHP-0929,Carrier_B,North,Air,Standard,558.4,8.4,High,2,0,1,2,0,1,1,Gold,17.0
+SHP-0930,Carrier_C,South,Ocean,Standard,650.1,7.47,Critical,1,1,0,1,0,1,1,Bronze,12.0
+SHP-0931,Carrier_C,East,Air,Express,1185.9,7.04,High,1,1,1,1,0,2,1,Silver,16.0
+SHP-0932,Carrier_C,West,Ocean,Express,942.2,6.4,Medium,3,0,1,0,0,1,1,Gold,13.0
+SHP-0933,Carrier_B,East,Truck,Cold Chain,610.7,7.58,Medium,2,1,0,1,0,0,1,Gold,13.5
+SHP-0934,Carrier_C,South,Ocean,Cold Chain,1076.1,7.07,High,4,1,0,1,1,2,0,Gold,24.5
+SHP-0935,Carrier_B,South,Truck,Express,564.9,6.65,High,4,0,3,0,0,1,1,Gold,21.0
+SHP-0936,Carrier_D,East,Truck,Standard,1002.3,4.9,High,1,0,3,0,0,0,1,Gold,10.5
+SHP-0937,Carrier_A,East,Air,Express,410.3,10.73,High,0,0,4,1,1,0,0,Silver,15.5
+SHP-0938,Carrier_A,North,Truck,Cold Chain,1018.3,3.87,High,4,2,1,0,0,0,0,Gold,22.5
+SHP-0939,Carrier_B,East,Ocean,Cold Chain,648.5,7.57,High,2,0,0,0,1,0,0,Silver,8.0
+SHP-0940,Carrier_C,South,Ocean,Cold Chain,492.9,5.7,High,2,0,1,1,1,0,1,Gold,14.0
+SHP-0941,Carrier_C,East,Air,Standard,695.7,10.9,Low,1,0,1,2,0,0,1,Gold,12.5
+SHP-0942,Carrier_B,West,Truck,Standard,819.3,4.24,High,2,1,0,1,0,0,1,Gold,13.5
+SHP-0943,Carrier_D,West,Truck,Cold Chain,626.3,4.66,High,0,0,0,0,1,0,0,Bronze,2.0
+SHP-0944,Carrier_B,East,Air,Standard,888.5,4.08,Low,4,0,1,1,0,1,1,Silver,19.5
+SHP-0945,Carrier_A,South,Air,Standard,604.3,7.31,High,2,0,1,2,0,1,1,Gold,17.0
+SHP-0946,Carrier_A,South,Ocean,Cold Chain,905.1,3.07,High,2,1,3,2,1,0,1,Gold,26.5
+SHP-0947,Carrier_D,North,Air,Standard,860.6,5.3,High,2,1,0,2,0,2,1,Silver,20.0
+SHP-0948,Carrier_A,West,Truck,Cold Chain,734.8,1.12,High,2,1,2,0,2,1,1,Gold,20.5
+SHP-0949,Carrier_D,West,Truck,Standard,639.7,7.1,Medium,2,1,2,1,1,0,1,Silver,20.5
+SHP-0950,Carrier_B,West,Ocean,Cold Chain,787.9,5.25,Medium,0,0,1,0,1,0,1,Bronze,4.5
+SHP-0951,Carrier_A,South,Truck,Express,887.6,2.78,Medium,1,1,0,2,1,1,1,Gold,17.5
+SHP-0952,Carrier_B,South,Ocean,Express,1265.4,9.21,Medium,0,0,3,0,1,1,1,Silver,11.0
+SHP-0953,Carrier_C,West,Truck,Express,984.9,3.23,High,5,0,2,0,0,0,1,Silver,20.0
+SHP-0954,Carrier_B,East,Ocean,Standard,994.0,8.49,High,3,0,0,0,0,0,0,Silver,9.0
+SHP-0955,Carrier_D,East,Ocean,Cold Chain,1522.1,4.75,High,1,2,2,0,1,0,1,Gold,18.0
+SHP-0956,Carrier_C,South,Air,Express,879.0,10.5,Low,1,2,1,1,1,0,1,Silver,19.0
+SHP-0957,Carrier_B,South,Truck,Express,871.2,8.37,Medium,2,0,2,1,1,1,1,Gold,18.0
+SHP-0958,Carrier_C,East,Ocean,Cold Chain,926.0,3.98,Low,0,0,2,2,0,0,1,Silver,12.0
+SHP-0959,Carrier_D,West,Truck,Cold Chain,497.8,4.21,High,1,3,1,2,1,0,1,Silver,26.5
+SHP-0960,Carrier_B,South,Air,Standard,639.0,8.01,Medium,2,0,0,0,1,0,1,Gold,8.0
+SHP-0961,Carrier_A,West,Ocean,Standard,623.5,5.84,High,1,1,0,0,1,0,1,Bronze,9.0
+SHP-0962,Carrier_B,North,Ocean,Standard,911.9,6.08,High,0,1,1,1,0,0,1,Silver,10.0
+SHP-0963,Carrier_D,South,Truck,Express,706.5,9.68,High,5,0,0,1,0,0,1,Silver,18.5
+SHP-0964,Carrier_A,West,Ocean,Express,784.6,4.63,Medium,2,2,0,1,2,0,0,Bronze,21.5
+SHP-0965,Carrier_D,West,Truck,Cold Chain,1021.9,6.73,Medium,3,0,1,1,1,0,1,Silver,17.0
+SHP-0966,Carrier_C,West,Ocean,Standard,965.8,8.89,High,1,0,1,0,1,1,1,Gold,9.0
+SHP-0967,Carrier_C,South,Air,Cold Chain,709.6,8.52,High,2,1,1,1,2,0,1,Silver,20.0
+SHP-0968,Carrier_B,West,Truck,Cold Chain,582.5,6.1,Low,0,0,1,0,0,0,1,Silver,2.5
+SHP-0969,Carrier_D,West,Air,Express,1033.8,5.78,Critical,1,1,1,2,1,0,1,Silver,18.5
+SHP-0970,Carrier_A,West,Truck,Express,943.5,2.15,High,2,0,0,1,2,0,1,Bronze,13.5
+SHP-0971,Carrier_B,North,Ocean,Cold Chain,348.4,3.86,Medium,1,1,0,0,0,0,1,Gold,7.0
+SHP-0972,Carrier_B,East,Truck,Express,671.7,7.3,Low,3,0,0,1,0,2,1,Gold,15.5
+SHP-0973,Carrier_B,West,Truck,Standard,791.4,6.16,Medium,2,0,3,1,1,0,1,Gold,19.0
+SHP-0974,Carrier_B,West,Air,Cold Chain,944.7,6.69,Medium,2,2,1,2,1,0,0,Silver,25.5
+SHP-0975,Carrier_A,North,Ocean,Cold Chain,977.5,9.1,Medium,1,0,1,2,1,0,1,Gold,14.5
+SHP-0976,Carrier_A,West,Air,Cold Chain,821.0,3.53,High,2,2,2,1,0,0,0,Gold,22.5
+SHP-0977,Carrier_A,North,Air,Express,896.3,5.91,Medium,3,0,6,3,1,1,0,Gold,38.0
+SHP-0978,Carrier_C,South,Air,Express,766.0,6.97,Critical,4,2,0,0,1,0,1,Silver,22.0
+SHP-0979,Carrier_B,East,Ocean,Express,581.5,4.74,Critical,1,2,2,0,1,0,1,Gold,18.0
+SHP-0980,Carrier_C,South,Air,Express,684.7,10.08,Medium,0,0,1,1,1,0,1,Gold,8.0
+SHP-0981,Carrier_C,East,Ocean,Express,754.7,8.77,Low,2,1,1,1,1,0,1,Gold,18.0
+SHP-0982,Carrier_C,North,Ocean,Cold Chain,741.3,7.23,High,0,0,0,0,0,0,1,Gold,0.0
+SHP-0983,Carrier_C,East,Ocean,Express,278.6,10.99,Critical,1,1,0,0,1,0,1,Gold,9.0
+SHP-0984,Carrier_C,East,Ocean,Cold Chain,650.6,2.75,Critical,1,1,2,0,1,0,1,Gold,14.0
+SHP-0985,Carrier_C,East,Ocean,Standard,764.1,6.48,Low,0,0,0,3,0,0,1,Silver,10.5
+SHP-0986,Carrier_C,South,Truck,Standard,679.7,7.42,Medium,2,0,2,0,1,1,1,Gold,14.5
+SHP-0987,Carrier_C,South,Ocean,Express,688.3,4.21,Low,2,1,1,0,2,0,0,Gold,16.5
+SHP-0988,Carrier_B,South,Ocean,Express,872.0,7.25,High,3,0,1,0,0,1,1,Silver,13.0
+SHP-0989,Carrier_A,South,Truck,Standard,480.3,3.73,High,3,0,2,1,2,0,1,Gold,21.5
+SHP-0990,Carrier_D,East,Ocean,Express,343.0,8.23,High,2,0,3,0,0,0,1,Gold,13.5
+SHP-0991,Carrier_B,South,Truck,Cold Chain,663.0,9.14,High,2,2,2,1,0,0,1,Gold,22.5
+SHP-0992,Carrier_C,South,Air,Express,941.0,7.18,Medium,3,0,2,4,2,0,0,Gold,32.0
+SHP-0993,Carrier_A,South,Ocean,Express,1171.9,1.87,High,1,1,0,1,1,1,1,Silver,14.0
+SHP-0994,Carrier_B,North,Truck,Cold Chain,945.5,4.08,Low,4,0,1,2,1,0,1,Bronze,23.5
+SHP-0995,Carrier_C,East,Air,Standard,382.9,7.91,High,4,0,0,2,0,0,1,Gold,19.0
+SHP-0996,Carrier_C,West,Ocean,Express,691.9,6.55,High,0,0,1,2,0,0,0,Silver,9.5
+SHP-0997,Carrier_C,South,Air,Cold Chain,814.2,1.0,High,1,0,1,0,1,0,1,Bronze,7.5
+SHP-0998,Carrier_B,West,Ocean,Express,794.4,9.61,Medium,0,1,0,0,0,0,1,Gold,4.0
+SHP-0999,Carrier_D,East,Truck,Cold Chain,884.8,6.84,High,1,2,1,2,1,0,0,Silver,22.5
+SHP-1000,Carrier_C,North,Ocean,Cold Chain,520.7,4.45,High,1,0,2,0,0,1,1,Silver,9.5
+SHP-1001,Carrier_D,South,Ocean,Cold Chain,766.2,8.99,Low,2,1,0,2,0,4,1,Silver,23.0
+SHP-1002,Carrier_C,North,Ocean,Cold Chain,855.1,4.81,Low,1,0,1,1,0,0,1,Bronze,9.0
+SHP-1003,Carrier_C,North,Truck,Express,956.4,4.78,High,2,0,0,1,0,0,1,Gold,9.5
+SHP-1004,Carrier_D,South,Ocean,Cold Chain,548.6,7.4,Medium,3,3,6,2,0,0,0,Bronze,43.0
+SHP-1005,Carrier_A,South,Air,Express,663.7,10.95,Low,3,0,0,0,0,1,1,Gold,10.5
+SHP-1006,Carrier_D,West,Air,Standard,74.0,10.56,Low,1,2,1,2,0,1,1,Silver,22.0
+SHP-1007,Carrier_D,North,Air,Express,594.6,7.4,Low,0,2,0,0,2,0,0,Gold,12.0
+SHP-1008,Carrier_C,West,Air,Standard,618.9,7.66,Medium,2,0,0,2,1,0,1,Gold,15.0
+SHP-1009,Carrier_C,North,Air,Cold Chain,495.1,8.48,High,1,0,0,0,2,0,1,Gold,7.0
+SHP-1010,Carrier_C,North,Air,Standard,791.4,3.36,Low,1,1,1,1,1,0,1,Bronze,15.0
+SHP-1011,Carrier_B,East,Truck,Express,736.0,8.11,High,0,0,1,1,0,0,1,Silver,6.0
+SHP-1012,Carrier_D,West,Ocean,Express,185.2,4.66,Medium,0,1,1,0,1,0,0,Bronze,8.5
+SHP-1013,Carrier_A,East,Truck,Cold Chain,803.9,7.3,Medium,2,2,3,1,1,0,1,Gold,27.0
+SHP-1014,Carrier_B,North,Truck,Standard,517.9,5.93,Medium,1,0,4,3,0,0,0,Gold,23.5
+SHP-1015,Carrier_C,North,Air,Standard,871.4,7.75,High,3,1,1,0,1,0,1,Gold,17.5
+SHP-1016,Carrier_D,South,Air,Standard,429.5,6.8,Critical,3,2,1,0,1,0,1,Gold,21.5
+SHP-1017,Carrier_B,South,Air,Express,757.5,1.0,Medium,2,1,2,0,1,0,0,Gold,17.0
+SHP-1018,Carrier_B,West,Ocean,Standard,679.2,6.95,Low,3,1,4,1,1,1,0,Bronze,30.0
+SHP-1019,Carrier_A,South,Truck,Standard,825.8,8.11,Medium,3,0,1,2,0,1,0,Bronze,20.0
+SHP-1020,Carrier_A,North,Truck,Cold Chain,781.2,7.61,Low,3,0,4,3,1,0,0,Gold,31.5
+SHP-1021,Carrier_A,West,Air,Standard,686.2,6.24,High,1,1,3,1,0,2,0,Gold,21.0
+SHP-1022,Carrier_A,North,Ocean,Cold Chain,365.9,10.61,Low,1,0,2,0,0,1,1,Silver,9.5
+SHP-1023,Carrier_D,North,Air,Cold Chain,380.7,7.28,Critical,0,1,0,0,2,1,0,Silver,9.5
+SHP-1024,Carrier_D,South,Air,Express,604.0,7.59,High,2,1,1,0,1,2,1,Silver,17.5
+SHP-1025,Carrier_D,South,Air,Standard,747.9,9.11,High,1,0,2,1,1,1,0,Silver,15.0
+SHP-1026,Carrier_A,East,Ocean,Standard,597.9,7.41,High,2,0,2,0,0,0,1,Gold,11.0
+SHP-1027,Carrier_A,West,Air,Express,906.3,4.25,Low,2,0,3,1,2,0,0,Gold,21.0
+SHP-1028,Carrier_B,West,Ocean,Express,680.2,1.0,High,2,3,0,1,0,1,0,Bronze,23.0
+SHP-1029,Carrier_C,South,Ocean,Cold Chain,508.7,5.31,Low,1,2,1,2,1,0,1,Silver,22.5
+SHP-1030,Carrier_B,West,Truck,Standard,680.5,8.4,High,0,0,0,1,0,1,1,Bronze,5.0
+SHP-1031,Carrier_B,East,Truck,Express,806.5,5.62,High,2,2,0,0,1,1,0,Gold,17.5
+SHP-1032,Carrier_A,North,Ocean,Express,831.2,8.5,Low,1,0,2,2,0,0,1,Silver,15.0
+SHP-1033,Carrier_C,West,Truck,Express,1219.6,6.87,High,4,0,3,3,0,0,0,Gold,30.0
+SHP-1034,Carrier_B,North,Air,Express,582.8,9.72,Low,2,0,2,0,0,1,1,Bronze,12.5
+SHP-1035,Carrier_A,East,Truck,Express,731.6,5.76,Low,2,1,1,2,1,1,1,Gold,23.0
+SHP-1036,Carrier_C,West,Air,Cold Chain,856.5,7.67,High,2,2,1,1,0,0,1,Silver,20.0
+SHP-1037,Carrier_D,North,Truck,Cold Chain,744.1,7.76,Medium,0,2,1,3,1,0,1,Gold,23.0
+SHP-1038,Carrier_A,South,Air,Standard,624.8,10.25,Critical,4,0,1,0,0,1,1,Gold,16.0
+SHP-1039,Carrier_B,South,Ocean,Standard,362.7,2.23,High,0,1,2,0,1,2,1,Gold,14.0
+SHP-1040,Carrier_D,West,Ocean,Cold Chain,622.3,5.35,High,3,0,2,2,1,0,1,Silver,23.0
+SHP-1041,Carrier_C,North,Ocean,Cold Chain,481.6,8.62,Medium,0,0,0,0,2,0,1,Silver,4.0
+SHP-1042,Carrier_D,East,Truck,Express,318.3,10.36,Low,1,0,1,0,1,1,1,Bronze,9.0
+SHP-1043,Carrier_B,South,Air,Cold Chain,551.1,7.1,Critical,0,1,2,1,0,2,1,Silver,15.5
+SHP-1044,Carrier_B,North,Truck,Express,488.2,5.77,Low,2,1,2,0,0,0,1,Silver,15.0
+SHP-1045,Carrier_C,East,Ocean,Express,895.9,8.39,High,0,1,2,1,3,2,1,Silver,21.5
+SHP-1046,Carrier_A,West,Ocean,Standard,900.3,8.67,Medium,0,2,4,1,0,0,1,Gold,21.5
+SHP-1047,Carrier_A,East,Truck,Cold Chain,524.0,5.6,Medium,2,1,1,0,3,0,0,Silver,18.5
+SHP-1048,Carrier_C,North,Air,Express,684.9,7.33,High,1,1,0,1,1,0,0,Silver,12.5
+SHP-1049,Carrier_C,North,Air,Express,285.4,9.45,High,0,0,1,0,3,1,0,Silver,10.0
+SHP-1050,Carrier_A,South,Air,Express,626.4,11.23,High,1,0,6,1,0,1,1,Gold,23.0
+SHP-1051,Carrier_C,East,Air,Standard,849.7,8.36,Critical,2,0,5,3,4,1,0,Gold,38.5
+SHP-1052,Carrier_B,East,Truck,Cold Chain,956.2,6.61,Medium,1,2,0,2,1,1,1,Gold,21.5
+SHP-1053,Carrier_C,North,Air,Express,571.7,6.36,Medium,1,0,0,2,0,1,0,Bronze,11.5
+SHP-1054,Carrier_D,East,Air,Express,1013.0,7.89,Low,2,0,5,2,1,0,0,Silver,27.5
+SHP-1055,Carrier_A,South,Ocean,Express,371.1,6.21,High,0,1,2,2,0,0,1,Silver,16.0
+SHP-1056,Carrier_D,East,Ocean,Express,438.1,6.97,Medium,4,0,6,4,1,0,0,Gold,43.0
+SHP-1057,Carrier_B,West,Ocean,Express,927.4,3.86,High,3,1,5,2,1,0,0,Silver,34.5
+SHP-1058,Carrier_D,East,Truck,Standard,1167.8,9.74,Low,2,1,3,2,1,0,0,Gold,26.5
+SHP-1059,Carrier_B,North,Ocean,Standard,873.4,3.65,High,0,0,1,1,1,0,1,Gold,8.0
+SHP-1060,Carrier_B,West,Air,Standard,739.9,5.42,High,0,1,1,2,0,0,1,Silver,13.5
+SHP-1061,Carrier_D,North,Air,Cold Chain,201.2,6.74,Critical,1,0,1,0,0,0,1,Gold,5.5
+SHP-1062,Carrier_C,West,Ocean,Standard,244.4,11.48,Low,3,3,0,1,0,1,1,Gold,26.0
+SHP-1063,Carrier_A,North,Ocean,Express,782.4,5.44,Critical,3,0,1,1,0,0,1,Gold,15.0
+SHP-1064,Carrier_C,East,Truck,Standard,660.5,4.83,Medium,0,0,1,1,0,1,1,Gold,7.5
+SHP-1065,Carrier_D,North,Air,Express,473.5,5.12,Medium,1,2,0,0,0,0,1,Bronze,11.0
+SHP-1066,Carrier_B,North,Ocean,Cold Chain,766.4,10.65,Medium,1,1,0,1,1,2,0,Silver,15.5
+SHP-1067,Carrier_D,East,Air,Express,778.8,1.0,Medium,2,1,3,3,0,0,1,Bronze,28.0
+SHP-1068,Carrier_C,East,Truck,Express,986.1,3.99,High,1,0,1,2,0,2,1,Bronze,15.5
+SHP-1069,Carrier_B,North,Air,Cold Chain,784.2,13.33,Medium,2,2,0,0,0,0,1,Gold,14.0
+SHP-1070,Carrier_A,West,Ocean,Standard,1057.1,7.98,Medium,1,0,1,0,1,2,1,Gold,10.5
+SHP-1071,Carrier_C,South,Truck,Express,752.0,3.74,High,2,1,1,0,1,0,1,Silver,14.5
+SHP-1072,Carrier_A,South,Ocean,Cold Chain,721.2,6.4,High,4,1,1,1,0,0,1,Gold,22.0
+SHP-1073,Carrier_D,South,Ocean,Express,1016.1,6.67,High,3,0,1,1,0,0,1,Bronze,15.0
+SHP-1074,Carrier_C,South,Ocean,Cold Chain,505.4,8.62,High,1,0,2,0,1,1,1,Gold,11.5
+SHP-1075,Carrier_B,North,Truck,Cold Chain,1453.6,11.1,Low,0,0,0,1,2,0,1,Silver,7.5
+SHP-1076,Carrier_A,South,Truck,Standard,843.8,7.47,High,1,1,0,1,1,0,1,Silver,12.5
+SHP-1077,Carrier_C,North,Air,Standard,845.2,5.15,Low,1,1,0,0,0,2,1,Bronze,10.0
+SHP-1078,Carrier_A,North,Air,Standard,881.3,8.47,Medium,1,1,0,0,0,2,0,Silver,10.0
+SHP-1079,Carrier_B,South,Air,Standard,1219.3,4.75,Low,1,0,0,1,2,0,1,Silver,10.5
+SHP-1080,Carrier_D,East,Ocean,Express,948.1,3.92,High,3,1,4,2,0,1,1,Gold,31.5
+SHP-1081,Carrier_D,West,Ocean,Express,348.7,2.1,Medium,0,0,4,0,0,0,1,Silver,10.0
+SHP-1082,Carrier_D,South,Truck,Express,1100.9,2.59,High,5,0,3,3,1,1,0,Silver,36.5
+SHP-1083,Carrier_D,South,Ocean,Cold Chain,664.8,4.26,Medium,3,1,0,1,0,1,1,Silver,18.0
+SHP-1084,Carrier_C,West,Truck,Express,776.8,3.56,Medium,1,0,1,0,0,0,1,Silver,5.5
+SHP-1085,Carrier_A,East,Air,Standard,430.2,7.28,Medium,2,0,0,1,2,1,1,Gold,15.0
+SHP-1086,Carrier_D,West,Truck,Cold Chain,881.6,3.5,Low,1,0,0,1,1,0,1,Gold,8.5
+SHP-1087,Carrier_D,West,Air,Cold Chain,587.2,1.0,Medium,1,1,0,0,2,0,1,Bronze,11.0
+SHP-1088,Carrier_D,West,Ocean,Express,775.0,3.89,High,4,0,4,3,2,0,0,Gold,36.5
+SHP-1089,Carrier_C,West,Air,Express,679.0,5.32,High,3,1,1,2,0,0,1,Silver,22.5
+SHP-1090,Carrier_A,South,Ocean,Cold Chain,1231.3,4.99,Low,1,1,2,0,1,0,1,Silver,14.0
+SHP-1091,Carrier_C,South,Truck,Express,1245.6,10.3,High,1,0,1,1,1,0,0,Bronze,11.0
+SHP-1092,Carrier_B,South,Air,Express,761.6,4.97,Medium,1,1,3,1,3,0,1,Gold,24.0
+SHP-1093,Carrier_D,North,Air,Cold Chain,766.0,8.7,Low,0,0,3,0,2,0,1,Gold,11.5
+SHP-1094,Carrier_B,East,Ocean,Cold Chain,656.6,6.45,Low,2,0,1,1,1,0,0,Bronze,14.0
+SHP-1095,Carrier_B,East,Ocean,Cold Chain,1026.5,6.39,Medium,8,1,0,1,1,0,1,Silver,33.5
+SHP-1096,Carrier_A,West,Air,Cold Chain,667.8,4.41,Medium,4,2,1,0,0,0,1,Silver,22.5
+SHP-1097,Carrier_D,North,Truck,Express,644.7,6.35,High,4,0,2,3,1,0,0,Gold,29.5
+SHP-1098,Carrier_D,South,Air,Express,994.6,4.59,Medium,4,1,4,2,1,3,1,Gold,39.5
+SHP-1099,Carrier_A,North,Truck,Express,615.4,6.93,High,1,2,1,0,0,1,1,Bronze,15.0
+SHP-1100,Carrier_B,West,Air,Express,740.6,5.91,Medium,1,1,0,0,1,0,1,Silver,9.0
+SHP-1101,Carrier_B,South,Truck,Cold Chain,354.7,4.14,High,1,0,1,0,2,1,0,Bronze,11.0
+SHP-1102,Carrier_B,North,Air,Express,926.0,8.98,High,2,0,3,3,0,1,0,Bronze,25.5
+SHP-1103,Carrier_D,East,Truck,Standard,1235.2,7.57,Medium,3,1,2,1,0,0,0,Silver,21.5
+SHP-1104,Carrier_A,West,Truck,Cold Chain,930.3,5.38,Low,1,1,0,1,1,0,1,Silver,12.5
+SHP-1105,Carrier_B,West,Truck,Cold Chain,1115.4,6.86,High,0,1,1,1,2,1,0,Silver,15.5
+SHP-1106,Carrier_A,North,Ocean,Express,538.5,6.29,Critical,0,1,1,2,1,0,1,Silver,15.5
+SHP-1107,Carrier_A,South,Ocean,Standard,809.1,4.33,Critical,4,0,1,1,1,0,0,Silver,20.0
+SHP-1108,Carrier_D,North,Ocean,Standard,514.2,6.68,Medium,3,1,1,0,1,1,1,Gold,19.0
+SHP-1109,Carrier_D,South,Truck,Cold Chain,693.1,4.95,High,0,0,0,3,1,1,1,Bronze,14.0
+SHP-1110,Carrier_A,East,Air,Standard,943.1,4.14,Medium,2,0,1,0,2,0,0,Silver,12.5
+SHP-1111,Carrier_C,South,Ocean,Express,775.5,2.44,Low,2,0,1,0,1,0,1,Bronze,10.5
+SHP-1112,Carrier_A,North,Air,Cold Chain,396.8,5.6,High,0,0,0,0,0,1,1,Gold,1.5
+SHP-1113,Carrier_A,East,Truck,Cold Chain,421.2,7.92,High,0,0,0,0,0,0,1,Gold,0.0
+SHP-1114,Carrier_B,North,Truck,Standard,404.7,4.76,High,2,2,2,0,1,0,1,Silver,21.0
+SHP-1115,Carrier_A,North,Truck,Express,872.9,12.8,High,0,0,1,0,0,1,0,Silver,4.0
+SHP-1116,Carrier_B,North,Ocean,Standard,1266.0,8.71,Medium,1,1,3,0,1,0,0,Gold,16.5
+SHP-1117,Carrier_D,North,Truck,Cold Chain,1090.6,9.76,High,1,2,2,1,1,0,1,Gold,21.5
+SHP-1118,Carrier_C,South,Ocean,Cold Chain,276.0,8.49,Medium,3,0,0,1,0,0,1,Silver,12.5
+SHP-1119,Carrier_C,West,Ocean,Standard,1105.3,11.13,Low,1,0,3,1,1,1,1,Bronze,17.5
+SHP-1120,Carrier_B,West,Ocean,Express,984.1,4.53,Medium,2,1,2,2,1,2,1,Gold,27.0
+SHP-1121,Carrier_A,North,Ocean,Standard,363.7,1.0,Critical,0,3,1,0,0,1,1,Gold,16.0
+SHP-1122,Carrier_A,North,Truck,Cold Chain,674.2,5.38,Medium,3,0,1,0,0,0,1,Gold,11.5
+SHP-1123,Carrier_B,South,Ocean,Cold Chain,1023.9,7.9,Low,0,0,1,1,0,0,1,Gold,6.0
+SHP-1124,Carrier_A,East,Truck,Express,887.6,6.88,High,1,1,2,2,1,1,1,Gold,22.5
+SHP-1125,Carrier_D,East,Truck,Express,422.7,7.19,Critical,0,0,0,3,2,1,1,Silver,16.0
+SHP-1126,Carrier_D,West,Truck,Standard,902.7,9.8,Critical,2,0,1,0,1,0,0,Silver,10.5
+SHP-1127,Carrier_D,South,Truck,Express,215.6,7.46,High,3,0,1,3,1,1,1,Gold,25.5
+SHP-1128,Carrier_C,North,Truck,Cold Chain,694.3,8.5,Medium,1,1,1,0,1,0,0,Gold,11.5
+SHP-1129,Carrier_C,North,Truck,Express,1034.5,4.15,High,1,2,1,1,0,1,1,Bronze,18.5
+SHP-1130,Carrier_C,North,Truck,Standard,754.6,3.76,High,1,1,0,1,0,2,1,Gold,13.5
+SHP-1131,Carrier_B,North,Air,Cold Chain,625.3,10.54,Critical,0,0,1,0,0,0,1,Silver,2.5
+SHP-1132,Carrier_C,West,Truck,Cold Chain,972.3,6.75,High,4,0,2,0,1,2,1,Gold,22.0
+SHP-1133,Carrier_D,South,Truck,Cold Chain,993.7,4.94,Medium,2,0,0,1,1,1,1,Silver,13.0
+SHP-1134,Carrier_D,West,Ocean,Express,1077.5,4.95,Low,1,0,1,2,0,0,1,Silver,12.5
+SHP-1135,Carrier_C,East,Truck,Cold Chain,968.6,4.88,High,2,0,0,0,0,0,1,Gold,6.0
+SHP-1136,Carrier_A,East,Truck,Standard,1020.3,4.73,Low,1,0,1,0,0,0,1,Silver,5.5
+SHP-1137,Carrier_C,South,Truck,Express,933.2,3.29,Low,1,0,0,1,1,0,0,Silver,8.5
+SHP-1138,Carrier_B,West,Truck,Standard,816.4,2.75,Medium,3,1,1,0,1,0,0,Gold,17.5
+SHP-1139,Carrier_C,North,Air,Standard,772.4,6.01,High,0,2,0,1,0,1,0,Silver,13.0
+SHP-1140,Carrier_C,North,Ocean,Standard,690.7,5.02,Critical,1,1,2,0,0,0,1,Gold,12.0
+SHP-1141,Carrier_D,South,Ocean,Express,446.9,9.27,High,3,3,0,1,1,0,1,Gold,26.5
+SHP-1142,Carrier_B,South,Air,Standard,511.2,7.23,Critical,1,1,1,0,1,0,1,Bronze,11.5
+SHP-1143,Carrier_D,East,Truck,Standard,679.5,7.16,High,1,0,1,0,0,1,1,Gold,7.0
+SHP-1144,Carrier_D,East,Ocean,Express,810.4,4.64,High,5,0,6,5,1,0,0,Gold,49.5
+SHP-1145,Carrier_B,East,Truck,Cold Chain,1110.2,6.2,Low,0,1,0,1,1,1,0,Gold,11.0
+SHP-1146,Carrier_B,South,Air,Express,739.6,7.4,High,4,0,2,3,1,0,0,Bronze,29.5
+SHP-1147,Carrier_C,South,Air,Cold Chain,1000.9,8.29,Low,1,0,4,3,1,1,0,Gold,27.0
+SHP-1148,Carrier_D,West,Ocean,Express,1019.8,6.27,Low,0,0,2,2,1,0,1,Gold,14.0
+SHP-1149,Carrier_C,North,Truck,Cold Chain,692.1,9.2,Low,3,1,0,0,3,1,1,Silver,20.5
+SHP-1150,Carrier_D,East,Air,Standard,898.7,6.52,High,2,1,2,1,0,1,1,Silver,20.0
+SHP-1151,Carrier_B,East,Air,Express,689.1,8.48,High,1,0,2,0,1,1,0,Silver,11.5
+SHP-1152,Carrier_C,West,Air,Express,1080.5,5.28,Critical,2,2,1,1,1,2,0,Bronze,25.0
+SHP-1153,Carrier_B,East,Ocean,Cold Chain,909.0,1.97,Critical,2,0,0,0,0,1,1,Gold,7.5
+SHP-1154,Carrier_D,South,Ocean,Cold Chain,452.4,7.17,Critical,0,0,1,0,0,0,1,Silver,2.5
+SHP-1155,Carrier_B,South,Air,Express,790.4,8.31,Low,1,1,2,1,1,0,0,Silver,17.5
+SHP-1156,Carrier_C,South,Air,Standard,1162.0,7.94,Critical,2,0,1,2,0,0,1,Gold,15.5
+SHP-1157,Carrier_A,South,Ocean,Standard,704.7,7.56,High,1,3,0,3,1,1,1,Bronze,29.0
+SHP-1158,Carrier_D,North,Air,Express,861.9,5.63,Critical,1,0,1,0,1,0,1,Silver,7.5
+SHP-1159,Carrier_B,East,Truck,Standard,886.5,4.48,Low,3,4,1,3,0,0,0,Gold,38.0
+SHP-1160,Carrier_B,North,Air,Cold Chain,490.8,7.88,Low,1,0,2,1,1,1,1,Gold,15.0
+SHP-1161,Carrier_C,East,Truck,Cold Chain,877.7,7.57,Critical,1,0,2,3,1,0,0,Gold,20.5
+SHP-1162,Carrier_B,West,Truck,Cold Chain,401.5,5.1,Low,0,1,1,1,1,0,1,Bronze,12.0
+SHP-1163,Carrier_D,West,Air,Express,593.6,9.27,Medium,3,4,0,1,2,0,0,Gold,32.5
+SHP-1164,Carrier_C,North,Ocean,Express,1018.9,4.29,Medium,3,0,1,1,0,1,0,Bronze,16.5
+SHP-1165,Carrier_C,West,Ocean,Standard,839.2,5.04,Low,1,1,2,1,0,0,1,Gold,15.5
+SHP-1166,Carrier_A,North,Truck,Express,673.9,10.59,Low,1,0,0,0,1,0,1,Bronze,5.0
+SHP-1167,Carrier_A,South,Air,Standard,861.6,8.67,Critical,2,2,0,1,0,0,1,Silver,17.5
+SHP-1168,Carrier_B,North,Truck,Express,735.0,5.6,Critical,0,0,0,1,1,0,1,Gold,5.5
+SHP-1169,Carrier_D,North,Ocean,Express,753.1,7.22,Critical,1,0,1,0,1,0,1,Gold,7.5
+SHP-1170,Carrier_D,North,Truck,Express,914.2,6.89,Medium,5,2,2,1,1,2,0,Silver,36.5
+SHP-1171,Carrier_C,North,Ocean,Express,568.2,1.0,Medium,1,1,0,1,0,0,1,Gold,10.5
+SHP-1172,Carrier_C,West,Ocean,Cold Chain,760.1,4.23,Medium,0,1,0,0,1,1,0,Gold,7.5
+SHP-1173,Carrier_B,North,Ocean,Express,671.9,6.37,Medium,0,1,2,0,1,0,1,Silver,11.0
+SHP-1174,Carrier_A,South,Truck,Cold Chain,353.6,5.61,Low,2,0,4,3,0,0,0,Bronze,26.5
+SHP-1175,Carrier_A,East,Ocean,Express,519.9,7.12,High,2,0,1,1,1,0,1,Silver,14.0
+SHP-1176,Carrier_B,West,Ocean,Express,1142.1,9.32,Critical,3,0,1,0,1,1,1,Bronze,15.0
+SHP-1177,Carrier_B,West,Air,Standard,846.2,5.7,High,3,1,0,1,0,3,0,Silver,21.0
+SHP-1178,Carrier_A,North,Ocean,Cold Chain,419.1,3.86,Medium,2,0,0,1,3,1,0,Silver,17.0
+SHP-1179,Carrier_B,West,Ocean,Express,364.9,7.31,Medium,4,0,2,0,1,1,0,Gold,20.5
+SHP-1180,Carrier_A,East,Truck,Express,722.0,5.68,Low,2,0,1,0,1,1,1,Silver,12.0
+SHP-1181,Carrier_C,North,Ocean,Cold Chain,1140.3,6.11,Medium,0,1,0,1,0,0,1,Silver,7.5
+SHP-1182,Carrier_D,South,Ocean,Standard,703.3,5.77,High,2,0,1,2,2,0,1,Silver,19.5
+SHP-1183,Carrier_C,West,Truck,Standard,1076.7,12.1,Medium,2,1,2,1,1,0,1,Bronze,20.5
+SHP-1184,Carrier_B,South,Truck,Cold Chain,838.0,1.0,High,2,1,4,1,1,0,1,Gold,25.5
+SHP-1185,Carrier_B,North,Ocean,Cold Chain,867.8,5.53,High,0,1,0,0,0,0,0,Silver,4.0
+SHP-1186,Carrier_B,West,Truck,Standard,416.1,6.49,Medium,0,0,1,2,0,0,0,Silver,9.5
+SHP-1187,Carrier_A,West,Air,Standard,984.4,4.55,Low,0,2,2,0,1,0,0,Gold,15.0
+SHP-1188,Carrier_C,West,Ocean,Express,666.3,8.75,Low,1,1,0,1,0,0,0,Gold,10.5
+SHP-1189,Carrier_C,West,Air,Express,965.8,8.53,Low,1,2,2,0,0,0,1,Bronze,16.0
+SHP-1190,Carrier_A,West,Ocean,Standard,546.5,6.38,High,1,3,0,1,0,0,0,Gold,18.5
+SHP-1191,Carrier_B,South,Truck,Express,794.3,5.82,High,2,1,3,1,1,0,0,Silver,23.0
+SHP-1192,Carrier_B,North,Truck,Cold Chain,838.0,6.22,Critical,5,0,3,1,0,0,0,Silver,26.0
+SHP-1193,Carrier_A,East,Ocean,Cold Chain,711.5,6.24,High,1,1,1,3,0,0,1,Bronze,20.0
+SHP-1194,Carrier_C,North,Air,Express,851.1,6.3,Medium,5,2,2,0,2,1,0,Silver,33.5
+SHP-1195,Carrier_C,South,Truck,Standard,683.4,6.03,Low,1,2,3,1,0,0,1,Gold,22.0
+SHP-1196,Carrier_C,East,Truck,Express,587.7,7.13,Medium,2,0,1,1,0,0,1,Gold,12.0
+SHP-1197,Carrier_C,West,Air,Standard,1151.4,8.38,Medium,1,0,5,3,0,1,0,Silver,27.5
+SHP-1198,Carrier_D,South,Air,Express,1012.2,3.42,Critical,1,1,2,0,1,0,1,Gold,14.0
+SHP-1199,Carrier_D,South,Truck,Standard,559.8,3.87,Medium,2,3,1,4,0,0,1,Silver,34.5
+SHP-1200,Carrier_C,East,Air,Standard,892.1,2.13,Medium,2,1,2,0,2,0,1,Gold,19.0

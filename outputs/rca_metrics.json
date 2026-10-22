@@ -1,0 +1,81 @@
+{
+  "sample_size": 1200,
+  "on_time_rate": 0.7167,
+  "late_rate": 0.2833,
+  "average_delay_hours": 16.38,
+  "model_auc": 0.6196,
+  "classification_report": {
+    "0": {
+      "precision": 0.5185185185185185,
+      "recall": 0.32941176470588235,
+      "f1-score": 0.4028776978417266,
+      "support": 85.0
+    },
+    "1": {
+      "precision": 0.7682926829268293,
+      "recall": 0.8790697674418605,
+      "f1-score": 0.8199566160520607,
+      "support": 215.0
+    },
+    "accuracy": 0.7233333333333334,
+    "macro avg": {
+      "precision": 0.6434056007226738,
+      "recall": 0.6042407660738714,
+      "f1-score": 0.6114171569468937,
+      "support": 300.0
+    },
+    "weighted avg": {
+      "precision": 0.6975233363444746,
+      "recall": 0.7233333333333334,
+      "f1-score": 0.7017842558924661,
+      "support": 300.0
+    }
+  },
+  "six_sigma_pareto": {
+    "cause_scores": {
+      "weather_delay": 1.9294,
+      "customs_delay": 0.6559,
+      "dock_congestion": 2.1294,
+      "driver_shortage": 1.3647,
+      "late_pickup": 0.85,
+      "handling_error": 0.4559
+    },
+    "pareto": [
+      {
+        "cause": "dock_congestion",
+        "score": 2.1294,
+        "cumulative_share": 0.2883
+      },
+      {
+        "cause": "weather_delay",
+        "score": 1.9294,
+        "cumulative_share": 0.5496
+      },
+      {
+        "cause": "driver_shortage",
+        "score": 1.3647,
+        "cumulative_share": 0.7344
+      },
+      {
+        "cause": "late_pickup",
+        "score": 0.85,
+        "cumulative_share": 0.8495
+      },
+      {
+        "cause": "customs_delay",
+        "score": 0.6559,
+        "cumulative_share": 0.9383
+      },
+      {
+        "cause": "handling_error",
+        "score": 0.4559,
+        "cumulative_share": 1.0
+      }
+    ],
+    "top_causes": [
+      "dock_congestion",
+      "weather_delay",
+      "driver_shortage"
+    ]
+  }
+}
