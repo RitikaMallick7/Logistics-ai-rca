@@ -6,7 +6,7 @@ SHP-0004,Carrier_B,West,Air,Standard,799.4,2.24,Medium,0,0,1,1,1,1,1,Silver,9.5
 SHP-0005,Carrier_B,East,Air,Cold Chain,453.7,8.82,High,3,0,2,1,1,1,0,Gold,21.0
 SHP-0006,Carrier_D,West,Ocean,Express,203.4,5.87,High,0,0,1,0,0,0,1,Silver,2.5
 SHP-0007,Carrier_A,East,Air,Express,787.5,5.97,High,1,0,3,1,0,0,1,Bronze,14.0
-SHP-0008,Carrier_C,East,Ocean,Cold Chain,831.0,7.52,High,0,0,1,1,2,2,1,Bronze,13.0
+SHP-0008,Carrier_C,East,Ocean,Cold Chain,831.0,7.52,High,0,0,1,1,2,2,1,Bronze,13.00
 SHP-0009,Carrier_A,South,Air,Standard,1052.3,7.95,Medium,1,1,0,1,1,1,0,Gold,14.0
 SHP-0010,Carrier_A,West,Truck,Cold Chain,1142.8,4.43,High,0,0,2,0,0,1,0,Gold,6.5
 SHP-0011,Carrier_C,East,Air,Standard,1142.5,8.29,Medium,2,1,1,1,1,0,1,Gold,18.0
