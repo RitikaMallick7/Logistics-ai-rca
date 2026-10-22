@@ -1,6 +1,6 @@
 # Logistics AI RCA & Executive Insights System
 
-This project creates a lightweight end-to-end analytics workflow for logistics shipment performance.
+This project creates lightweight end-to-end analytics workflow for logistics shipment performance.
 
 ## What it does
 - Generates a synthetic TMS shipment dataset in data/tms_shipments.csv
