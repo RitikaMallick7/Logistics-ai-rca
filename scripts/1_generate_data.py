@@ -13,23 +13,7 @@ def generate_dataset(n_rows: int = 1200) -> pd.DataFrame:
     modes = ["Truck", "Air", "Ocean"]
     shipment_types = ["Express", "Standard", "Cold Chain"]
 
-    data = {
-        "shipment_id": [f"SHP-{i:04d}" for i in range(1, n_rows + 1)],
-        "carrier": rng.choice(carriers, size=n_rows),
-        "region": rng.choice(regions, size=n_rows),
-        "mode": rng.choice(modes, size=n_rows),
-        "shipment_type": rng.choice(shipment_types, size=n_rows),
-        "distance_km": rng.normal(750, 250, n_rows).round(1),
-        "weight_tons": rng.normal(6.5, 2.5, n_rows).clip(1, 20).round(2),
-        "priority": rng.choice(["Low", "Medium", "High", "Critical"], p=[0.2, 0.3, 0.35, 0.15], size=n_rows),
-        "weather_delay": rng.poisson(1.5, n_rows),
-        "customs_delay": rng.poisson(0.6, n_rows),
-        "dock_congestion": rng.poisson(1.2, n_rows),
-        "driver_shortage": rng.poisson(0.8, n_rows),
-        "late_pickup": rng.poisson(0.7, n_rows),
-        "handling_error": rng.poisson(0.4, n_rows),
-        "on_time": np.zeros(n_rows, dtype=int),
-    }
+    
 
     df = pd.DataFrame(data)
     df["service_level"] = rng.choice(["Gold", "Silver", "Bronze"], p=[0.5, 0.35, 0.15], size=n_rows)
