@@ -11,7 +11,7 @@ def generate_dataset(n_rows: int = 1200) -> pd.DataFrame:
     carriers = ["Carrier_A", "Carrier_B", "Carrier_C", "Carrier_D"]
     regions = ["North", "South", "East", "West"]
     modes = ["Truck", "Air", "Ocean"]
-    shipment_types = ["Express", "Standard", "Cold Chain"]
+    # shipment_types = ["Express", "Standard", "Cold Chain"]
 
     data = {
         "shipment_id": [f"SHP-{i:04d}" for i in range(1, n_rows + 1)],
